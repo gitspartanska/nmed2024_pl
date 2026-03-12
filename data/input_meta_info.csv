@@ -1,0 +1,392 @@
+Name,Description,Values,Section
+NACCREAS,Pierwotna przyczyna przyjścia do Ośrodka,"{'1': 'Wzięcie udziału w badaniu naukowym', '2': 'Przystąpienie do oceny klinicznej', '7': 'Zarówno wzięcie udziału w badaniu naukowym, jak i przystąpienie do oceny klinicznej lub inna przyczyna', '9': 'Nieznany'}",Dane demograficzne
+NACCREFR,Główne źródło skierowania,"{'1': 'Nieprofesjonalne: samodzielne/krewny/przyjaciel', '2': 'Profesjonalne: klinicysta, pielęgniarka, doktor, inny pracownik opieki medycznej', '8': 'Inne', '9': 'Nieznany'}",Dane demograficzne
+BIRTHMO,Miesiąc urodzenia pacjenta,"{'zakres': '1 - 12'}",Dane demograficzne
+BIRTHYR,Rok urodzenia pacjenta,"{'zakres': '>= 1875'}",Dane demograficzne
+SEX,Płeć pacjenta,"{'1': 'Męska', '2': 'Żeńska'}",Dane demograficzne
+HISPANIC,Etniczność hiszpańska/latynoska,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Dane demograficzne
+HISPOR,Pochodzenie hiszpańskie,"{'1': 'Meksykańskie, Chicano, or Meksykańsko-Amerykańskie', '2': 'Portorykańskie', '3': 'Kubańskie', '4': 'Dominikańskie', '5': 'Środkowomerykańskie', '6': 'Południowoamerykańskie', '50': 'Inne (sprecyzuj)', '88': 'Nie dotyczy; pacjent nie posiada pochodzenia hiszpańskiego', '99': 'Nieznany'}",Dane demograficzne
+RACE,Rasa,"{'1': 'Biała', '2': 'Czarna lub Afroamerykańska', '3': 'Indianin amerykański lub Rdzenny mieszkaniec Alaski', '4': 'Rdzenny mieszkaniec Hawajów lub  inny mieszkaniec Wysp Pacyfiku', '5': 'Azjata', '50': 'Inna (sprecyzuj)', '99': 'Nieznany'}",Dane demograficzne
+RACESEC,Druga rasa,"{'1': 'Biała', '2': 'Czarna lub Afroamerykańska', '3': 'Indianin amerykański lub Rdzenny mieszkaniec Alaski', '4': 'Rdzenny mieszkaniec Hawajów lub  inny mieszkaniec Wysp Pacyfiku', '5': 'Azjata', '50': 'Inne (sprecyzuj)', '88': 'Nie zgłoszono', '99': 'Nieznany'}",Dane demograficzne
+RACETER,Trzecia rasa,"{'1': 'Biała', '2': 'Czarna lub Afroamerykańska', '3': 'Indianin amerykański lub Rdzenny mieszkaniec Alaski', '4': 'Rdzenny mieszkaniec Hawajów lub  inny mieszkaniec Wysp Pacyfiku', '5': 'Azjata', '50': 'Inne (sprecyzuj)', '88': 'Nie zgłoszono', '99': 'Nieznany'}",Dane demograficzne
+PRIMLANG,Główny język,"{'1': 'Angielski', '2': 'Hiszpański', '3': 'Mandaryński', '4': 'Kantoński', '5': 'Rosyjski', '6': 'Japoński', '8': 'Inny główny język (sprecyzuj)', '9': 'Nieznany'}",Dane demograficzne
+EDUC,Lata edukacji,"{'zakres': '0 - 36'}",Dane demograficzne
+MARISTAT,Stan cywilny,"{'1': 'W związku małżeńskim', '2': 'Owdowiały', '3': 'Rozwiedziony', '4': 'W separacji', '5': 'Nigdy nie był w związku małżeńskim (lub małżeństwo było unieważnione)', '6': 'Życje w związku małżeńskim/partnerskim', '9': 'Inny lub Nieznany'}",Dane demograficzne
+NACCLIVS,Sytuacja życiowa,"{'1': 'Żyje samotnie', '2': 'Żyje z małżonkiem lub partnerem', '3': 'Żyje z krewnym lub przyjacielem', '4': 'Żyje z grupą', '5': 'Inna', '9': 'Nieznany'}",Dane demograficzne
+INDEPEND,Poziom niezależności,"{'1': 'Zdolny do niezależnego życia', '2': 'Wymaga wsparcia w skomplikowanych czynnościach', '3': 'Wymaga wsparcia w prostych czynnościach', '4': 'Pełna zależność', '9': 'Nieznany'}",Dane demograficzne
+RESIDENC,Rodzaj miejsca zamieszkania,"{'1': 'Jedno- lub wielorodzinna prywatna rezydencja (mieszkanie, kawalerka, dom)', '2': 'Społeczność emerytów lub w niezależnej grupie', '3': 'Mieszkania wspomagane, dom dorosłej rodziny lub dom opieki', '4': 'Ośrodek opieki pielęgniarskiej, dom starców, szpital lub hospicjum', '9': 'Inne lub nieznane'}",Dane demograficzne
+HANDED,Czy pacjent jest lewo- czy praworęczny?,"{'1': 'Leworęczny', '2': 'Praworęczny', '3': 'Oburęczny', '9': 'Nieznany'}",Dane demograficzne
+NACCAGE,Wiek pacjenta podczas wizyty,"{'zakres': '18 - 120'}",Dane demograficzne
+NACCNIHR,Definicja rasy zaczerpnięta z NIH,"{'1': 'Biała', '2': 'Czarna lub Afroamerykańska', '3': 'Indianin amerykański lub Rdzenny mieszkaniec Alaski', '4': 'Rdzenny mieszkaniec Hawajów lub inny mieszkaniec Wysp Pacyfiku', '5': 'Azjata', '6': 'Wielorasowa', '9': 'Nieznany lub niejasna'}",Dane demograficzne
+NACCFAM,Wskaźnik członka rodziny pierwszego stopnia z upośledzeniem funkcji poznawczych,"{'0': 'Brak raportu o członku rodziny pierwszego stopnia z upośledzeniem funkcji poznawczych', '1': 'Raport o członku rodziny pierwszego stopnia z upośledzeniem funkcji poznawczych', '9': 'Nieznany'}",Historia Rodziny
+NACCMOM,Wskaźnik matki z upośledzeniem funkcji poznawczych,"{'0': 'Brak raportu o matce z upośledzeniem funkcji poznawczych', '1': 'Matka miała wykryte upośledzeniem funkcji poznawczych', '9': 'Nieznany'}",Historia Rodziny
+NACCDAD,Wskaźnik ojca rodziny pierwszego stopnia z upośledzeniem funkcji poznawczych,"{'0': 'Brak raportu o ojcu z upośledzeniem funkcji poznawczych', '1': 'Ojciec miał wykryte upośledzeniem funkcji poznawczych', '9': 'Nieznany'}",Historia Rodziny
+NACCFADM,"Czy w tej rodzinie są dowody na dziedziczenie dominujące mutacji choroby Alzheimera?","{'0': 'Nie/Nieznany', '1': 'Tak'}",Historia Rodziny
+NACCAM,"Czy w tej rodzinie są dowody na mutację związaną z chorobą Alzheimera (z podanej listy mutacji)?","{'0': 'Nie', '1': 'Tak, APP', '2': 'Tak, PS-1 (PSEN-1)', '3': 'Tak, PS-2 (PSEN-2)', '8': 'Tak, inna (sprecyzuj)', '9': 'Nie wiadomo czy mutacja istnieje'}",Historia Rodziny
+NACCAMS,Źródło dowodów za istnieniem mutacji związanej z choroba Alzheimera,"{'1': 'Wywiad rodzinny (brak dostępnych dokumentacji testów)', '2': 'Dokumentacja testów komercyjnych', '3': 'Dokumentacja testów z badań laboratoryjnych', '8': 'Inne (sprecyzuj)', '9': 'Nieznany'}",Historia Rodziny
+NACCFFTD,"Czy w tej rodzinie są dowody na mutację związaną z otępieniem czołowo-skroniowym?","{'0': 'Nie/Nieznany', '1': 'Tak'}",Historia Rodziny
+NACCFM,"Czy w tej rodzinie są dowody na mutację związaną z otępieniem czołowo-skroniowym (z podanej listy mutacji)?","{'0': 'Nie', '1': 'Tak, MAPT', '2': 'Tak, PGRN', '3': 'Tak, C9orf72', '4': 'Tak, FUS', '8': 'Tak, inna (sprecyzuj)', '9': 'Nie wiadomo czy mutacja istnieje'}",Historia Rodziny
+NACCFMS,Źródło dowodów za istnieniem mutacji związanej z otępieniem czołowo-skroniowym,"{'1': 'Wywiad rodzinny (brak dostępnych dokumentacji testów)', '2': 'Dokumentacja testów komercyjnych', '3': 'Dokumentacja testów z badań laboratoryjnych', '8': 'Inne (sprecyzuj)', '9': 'Nieznany'}",Historia Rodziny
+NACCOM,"Czy w tej rodzinie są dowody na mutację związaną z chorobą inną niż choroba Alzheimera i otępienie czołowo-skroniowe?","{'0': 'Nie', '1': 'Tak (sprecuzuj)', '9': 'Nie wiadomo czy mutacja istnieje'}",Historia Rodziny
+NACCOMS,Źródło dowodów za istnieniem innej mutacji,"{'1': 'Wywiad rodzinny (brak dostępnych dokumentacji testów)', '2': 'Dokumentacja testów komercyjnych', '3': 'Dokumentacja testów z badań laboratoryjnych', '8': 'Inne (sprecyzuj)', '9': 'Nieznany'}",Historia Rodziny
+ANYMEDS,Pacjent przyjmuje leki,"{'0': 'Nie', '1': 'Tak'}",Leki
+NACCAMD,Całkowita licznba leków zgłoszonych podczas każdej wizyty,{'zakres': '0 - 40'},Leki
+NACCAHTN,Zgłoszone aktualne użycie leków na nadciśnienie lub regulację ciśnienia krwi,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCHTNC,Zgłoszone aktualne użycie leków złożonych w terapii nadciśnienia tętniczego,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCACEI,Zgłoszone aktualne użycie inhibitora enzymu konwertującego angiotensynę (ACE),"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCAAAS,Zgłoszone aktualne użycie leków przeciwadrenergicznych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCBETA,Zgłoszone aktualne użycie leków blokujących receptory beta-adrenergiczne (beta-blokerów),"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCCCBS,Zgłoszone aktualne użycie leków antagonistów wapnia (blokerów kanału wapniowego),"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCDIUR,Zgłoszone aktualne użycie diuretyków,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCVASD,Zgłoszone aktualne użycie leków rozszerzających naczynia krwionośne,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCANGI,Zgłoszone aktualne użycie inhibitorów angiotensyny II,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCLIPL,Zgłoszone aktualne użycie leków zmniejszających poziom lipidów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCNSD,Zgłoszone aktualne użycie niesteroidowych leków przeciwazpalnych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCAC,Zgłoszone aktualne użycie leków przeciwpłytkowych lub antykoagulatów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCADEP,Zgłoszone aktualne użycie antydepresantów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCAPSY,Zgłoszone aktualne użycie leków przeciwpsychotycznych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCAANX,"Zgłoszone aktualne użycie leków przeciwlękowych, sedacyjnych, lub hypnotycznych","{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCADMD,Zgłoszone aktualne użycie leków na symptomy choroby Alzheimera zaaprobowanych przez FDA,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCPDMD,Zgłoszone aktualne użycie leków na chorobę Parkinsona,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCEMD,Zgłoszone aktualne użycie estrogenowej terapii hormonalnej,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCEPMD,Zgłoszone aktualne użycie terapii hormonalnej estrogen + progesteron,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCDBMD,Zgłoszone aktualne użycie leków na cukrzycę,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+TOBAC30,Palenie wyrobów tytoniowych w przeciągu ostatnich 30 dni,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+TOBAC100,Wypalenie wiecej niż 100 wyrobów tytoniowych w życiu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+SMOKYRS,Łączna liczba lat palenia wyrobów tytoniowych,{'zakres': '0 - 87'},Historia Zdrowia
+PACKSPER,Średnia liczba opakowań wypalanych dzien'Nie',"{'0': 'Nie zgłoszono użycia wyrobów tytoniowych', '1': '1 papieros do 1/2 opakowania', '2': '1/2 opakowania do mniej niż 1 opakowania', '3': '1 opakowanie do 1.5 opkakowania', '4': '1.5 opakowania do 2 opakowań', '5': 'więcej niż 2 opakowania', '8': 'Nie ma zastosowania', '9': 'Nieznany'}",Historia Zdrowia
+QUITSMOK,"Jeżeli pacjent rzucił palenie, jej/jego wiek kiedy ostatni raz palił/-a (t.j. rzucił/-a palenie)",{'zakres': '7 - 110'},Historia Zdrowia
+ALCOCCAS,"Czy pacjent spożywał alkohol w ciągu ostatnich 3 miesięcy?","{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+ALCFREQ,"W przeciągu ostatnich 3 miesięcy, jak częśto pacjent pił co najmniej jeden z wyrobów alkoholowch takich jak: wino, piwo, likier słodowy lub spirytus?","{'0': 'Mniej niż raz w miesiącu', '1': 'Około raz w miesiącu', '2': 'Około raz w tygodniu', '3': 'Kilka razy w tygodniu', '4': 'Codzienne lub prawie codziennie', '8': 'Nie ma zastosowania, brak konsumpcji alkoholu w przeciągu ostatnich 3 miesięcy', '9': 'Nieznany'}",Historia Zdrowia
+CVHATT,Zawał serca/zatrzymanie akcji serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+HATTMULT,Więcej niż jeden zawał serca/zatrzymanie akcji serca?,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, brak wzmianki o zawałach serca', '9': 'Nieznany'}",Historia Zdrowia
+HATTYEAR,Rok w którym ostatni raz wystąpił zawał serca,{'zakres': '>= 1900'},Historia Zdrowia
+CVAFIB,Migotanie przedsionków,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+CVANGIO,Angioplastyka/endarterektomia/stent,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVBYPASS,Zabieg bypass serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVPACDEF,Rozrusznik serca i/lub defibrylator,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVPACE,Rozrusznik serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVCHF,Zastoinowa niewydolność serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVANGINA,Angina,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+CVHVALVE,Zastąpienie lub naprawa zastawki serca,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+CVOTHR,Inna choroba układu krążenia,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CBSTROKE,Udar,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+STROKMUL,Więcej niż jeden udar wykryty na dzień Wizyty Wstępnej,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, brak informacji na temat udaru na dzień Wizyty Wstępnej', '9': 'Nieznany'}",Historia Zdrowia
+NACCSTYR,Ostatni zaraportowany rok udaru na dzień Wizyty Wstępnej,{'zakres': '>= 1900'},Historia Zdrowia
+CBTIA,Przemijające napady niedokrwienia mózgu (TIA),"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+TIAMULT,Więcej niż jeden przemijajacy napad niedokrwienia mózgu (TIA) na dzień Wizyty wstępnej,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, brak informacji na temat TIA na dzień Wizyty Wstępnej', '9': 'Nieznany'}",Historia Zdrowia
+NACCTIYR,Ostatni zaraportowany rok TIA na dzień Wizyty Wstępnej,{'zakres': '>= 1900'},Historia Zdrowia
+PD,Choroba Parkinsona,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '9': 'Nieznany'}",Historia Zdrowia
+PDYR,Rok zdiagnozowania choroby Parkinsona,{'zakres': '>= 1900'},Historia Zdrowia
+PDOTHR,Inne choroby parkinsonowe (parkinsonizm objawowy),"{'0': 'Brak', '1': 'Niedawne/Aktywne', '9': 'Nieznany'}",Historia Zdrowia
+PDOTHRYR,Rok zdiagnozowania parkinsonizmu objawowego,{'zakres': '>= 1900'},Historia Zdrowia
+SEIZURES,Napady padaczkowe,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+TBI,Urazowe uszkodzenie mózgu (TBI),"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+TBIBRIEF,Urazowe uszkodzenie mózgu (TBI) z krótkotrwałą utratą przytomności,"{'0': 'Nie', '1': 'Pojedyncze', '2': 'Powtarzajace się/wielokrotne', '9': 'Nieznany'}",Historia Zdrowia
+TRAUMBRF,uraz mózgu - krótkotrwała utrata przytomności,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+TBIEXTEN,Urazowe uszkodzenie mózgu (TBI) z wydłużoną utratą przytomności - 5 minut lub dłużej,"{'0': 'Nie', '1': 'Pojedyncze', '2': 'Powtarzajace się/wielokrotne', '9': 'Nieznany'}",Historia Zdrowia
+TRAUMEXT,uraz mózgu - wydłużna utrata przytomności,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+TBIWOLOS,Urazowe uszkodzenie mózgu (TBI) bez utraty przytomności - jakie może wystąpić w przypadku urazu sportowego lub silnego wstrząsu,"{'0': 'Nie', '1': 'Pojedyncze', '2': 'Powtarzajace się/wielokrotne', '9': 'Nieznany'}",Historia Zdrowia
+TRAUMCHR,uraz mózgu - przewlekły deficyt,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+TBIYEAR,Rok ostatniego wystąpienia urazowego uszkodzenia mózgu (TBI),{'zakres': '>= 1900'},Historia Zdrowia
+NCOTHR,Inne schorzenia neurologiczne,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+DIABETES,Cukrzyca,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+DIABTYPE,"Jeżeli cukrzyca jest Niedawna/Aktywna lub Odległa/Nieaktywna, jakiego jest typu?","{'1': 'Typ 1', '2': 'Typ 2', '3': 'Inny typ (moczówka prosta, utajona autoimmunologiczna cukrzyca dorosłych/typ 1.5, cukrzyca ciążowa)', '8': 'Nie ma zastosowania, nie wykryto cukrzycy', '9': 'Nieznany'}",Historia Zdrowia
+HYPERTEN,Nadciśnienie tętnicze,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+HYPERCHO,Hipercholesterolemia,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+B12DEF,Niedobór witaminy B12,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+THYROID,Choroba tarczycy,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+ARTHRIT,Zapalenie stawów,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+ARTHTYPE,Rodzaj zapalenia stawów,"{'1': 'Reumatoidalne', '2': 'Osteoartroza/Choroba zwyrodnieniowa stawów', '3': 'Inne', '8': 'Nie ma zastosowania, nie wykryto zapalenia stawów', '9': 'Nieznany'}",Historia Zdrowia
+ARTHUPEX,"Zapalenie stawów, obszar dotknięty - kończyny górne","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, nie wykryto zapalenia stawów'}",Historia Zdrowia
+ARTHLOEX,"Zapalenie stawów, obszar dotknięty - kończyny dolne","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, nie wykryto zapalenia stawów'}",Historia Zdrowia
+ARTHSPIN,"Zapalenie stawów, obszar dotknięty - kręgosłup","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, nie wykryto zapalenia stawów'}",Historia Zdrowia
+ARTHUNK,"Zapalenie stawów, obszar dotknięty - nieznany","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, nie wykryto zapalenia stawów'}",Historia Zdrowia
+INCONTU,Nietrzymanie moczu,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+INCONTF,Nietrzymanie kału,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+APNEA,Bezdech senny odnotowany w historii pacjenta na dzień Wizyty Wstępnej,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+RBD,"Zaburzenia zachowania w czasie snu REM (parasomnia snu REM, RbD) odnotowane w historii pacjenta na dzień Wizyty Wstępnej","{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+INSOMN,Hiposomnia/bezsenność odnotowana w historii pacjenta na dzień Wizyty Wstępnej,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+OTHSLEEP,Inne zaburzenia snu odnotowane w historii pacjenta na dzień Wizyty Wstępnej,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+ALCOHOL,"Nadużycie alkoholu - klinicznie istotne trwające ponad 12 miesięcy i ujawniające się w jednym z następujących obszarów: pracy, kierowania pojazdem, cywilno-prawnym, społecznym","{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+ABUSOTHR,"Nadużycie innych substancji - klinicznie istotne trwające ponad 12 miesięcy i ujawniające się w jednym z następujących obszarów: pracy, kierowania pojazdem, cywilno-prawnym, społecznym","{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+PTSD,Zespół stresu pourazowego (PTSD),"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+BIPOLAR,Zaburzenia afektywne dwubiegunowe,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+SCHIZ,Schizofrenia,"{'0': 'Brak', '1': 'Niedawna/Aktywna', '2': 'Odległa/Nieaktywna', '9': 'Nieznany'}",Historia Zdrowia
+DEP2YRS,Aktywna depresja w ciągu ostatnich dwóch lat,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+DEPOTHR,Epizody depresyjne wystąpiły ponad dwa lata temu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+ANXIETY,Zaburzenia lękowe,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+OCD,Zaburzenia obsesyjno-kompulsyjne (OCD),"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+NPSYDEV,"Zaburzenia neurorozwojowe (np., zaburzenia ze spektrum autyzmu, zespół nadpobudliwości psychoruchowej z deficytem uwagi [ADHD], dysleksia)","{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+PSYCDIS,Inne choroby psychiatryczne,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
+NACCTBI,Historia urazowych uszkodzeń mózgu (TBI),"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
+HEIGHT,Wysokość pacjenta (cm),{'zakres': '90 - 225'},Cechy Fizyczne
+WEIGHT,Masa pacjenta (kg),{'zakres': '20 - 185'},Cechy Fizyczne
+NACCBMI,body mass index (bMI),{'zakres': '10 - 100'},Cechy Fizyczne
+BPSYS,"Ciśnienie krwi pacjenta (na siedząco), skurczowe",{'zakres': '70 - 230'},Cechy Fizyczne
+BPDIAS,"Ciśnienie krwi pacjenta (na siedząco), rozkurczowe",{'zakres': '30 - 140'},Cechy Fizyczne
+HRATE,Spoczynkowe tętno krwi pacjenta (puls),{'zakres': '33 - 160'},Cechy Fizyczne
+VISION,"Czy wzrok pacjenta jest funkcjonalnie normalny bez soczewek korekcyjnych?","{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Cechy Fizyczne
+VISCORR,Czy pacjent nosi normalnie soczewki korekcyjne?,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Cechy Fizyczne
+VISWCORR,"Jeżeli pacjent normalnie nosi soczewki korekcyjne, czy wzrok pacjenta jest w nich funkcjonalnie normalny?","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, pacjent nie nosi soczewek korekcyjnych', '9': 'Nieznany'}",Cechy Fizyczne
+HEARING,"Czy słuch pacjenta jest funkcjonalnie normalny beaz aparat(ów) słuchowego(-ych)?","{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Cechy Fizyczne
+HEARAID,Czy pacjent nosi normalnie aparat(y) słuchowy(-e)?,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Cechy Fizyczne
+HEARWAID,"Jeżeli pacjent nosi normalnie aparat(y) słuchowy(-e), czy razem z nim(i) słuch pacjenta jest funkcjonalnie normalny?","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, pacjent nie nosi aparat(ów) słuchowego(-ych)', '9': 'Nieznany'}",Cechy Fizyczne
+ABRUPT,Gwałtowny początek (do: oena stanu w skali HIS),"{'0': 'Brak', '2': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+STEPWISE,Stopniowe pogorszenie (do: oena stanu w skali HIS),"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+SOMATIC,Skargi somatyczne,"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+EMOT,Nietrzymanie afektu,"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+HXHYPER,Dodatni wywiad w kierunku nadciśnienia,"{'0': 'Brak', '1': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+HXSTROKE,Dodatni wywiad w kierunku udaru,"{'0': 'Brak', '2': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+FOCLSYM,Ogniskowe objawy neurologiczne podmiotowe,"{'0': 'Brak', '2': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+FOCLSIGN,Ogniskowe objawy neurologiczne przedmiotowe,"{'0': 'Brak', '2': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+HACHIN,Wskaźnik Ischemiczny Hachinskiego (HIS),{'zakres': '0 - 12'},Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDCOG,Wkład chorób naczyń mógowych do Cerebrovascular disease contributing to zaburzeń poznawczych,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+STROKCOG,Relacja pomiędzy udarem a zaburzeniami poznawczymi,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDIMAG,Dowody obrazowe,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowaniaNie ma zastosowaniaNie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDIMAG1,Pojedynczy strategiczny zawał,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowaniaNie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDIMAG2,Wielokrotne zawały,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDIMAG3,Ogniska hiperintensywne w istocie białej,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDIMAG4,Inne dowody obrazowe,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+PDNORMAL,UPDRS normalny,"{'0': 'Nie, nie jest normalny', '1': 'Tak, jest normalny', '8': 'Nieznany'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+SPEECH,Mowa,"{'0': 'Normalna', '1': 'Niewielka utrata ekspresji, dykcji i/lub głośności', '2': 'Monotonna, niewyraźny ale zrozumiała,  umiarkowanie upośledzona', '3': 'Oznaczona jako upośledzona, trudna do zrozumienia', '4': 'Niezrozumiała', '8': 'Niemożliwa do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+FACEXP,Mimika twarzy,"{'0': 'Normala', '1': 'Minimalna hipomimika, moży być normalna “kamienna tawrz”', '2': 'Niewielki, ale stanowczo abnormalny zanik mimiki twarzy', '3': 'Umiarkowana hipomimika; usta rozwarte przez część czasu', '4': 'Maskowata twarz z poważną lub całkowitą utratą mimiki twarzy; usta rozwarte o 0.5 cm lub bardziej', '8': 'Niemożliwa do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRESTFAC,"Drżenie podczas odpoczynku - twarz, usta, podbrudek","{'0': 'Brak', '1': 'Nieznacze i pojawia się rzadko', '2': 'Łagodna amplituda i czas trwaniu; lub umiarkowana amplituda, ale obecne tylko czasami', '3': 'Umiarkowana amplituda i obecne przez większość czasu', '4': 'Ciężka amplituda i obecne przez większość czasu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRESTRHD,Drżenie podczas odpoczynku - prawa ręka,"{'0': 'Brak', '1': 'Nieznacze i pojawia się rzadko', '2': 'Łagodna amplituda i czas trwaniu; lub umiarkowana amplituda, ale obecne tylko czasami', '3': 'Umiarkowana amplituda i obecne przez większość czasu', '4': 'Ciężka amplituda i obecne przez większość czasu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRESTLHD,Drżenie podczas odpoczynku - lewa ręka,"{'0': 'Brak', '1': 'Nieznacze i pojawia się rzadko', '2': 'Łagodna amplituda i czas trwaniu; lub umiarkowana amplituda, ale obecne tylko czasami', '3': 'Umiarkowana amplituda i obecne przez większość czasu', '4': 'Ciężka amplituda i obecne przez większość czasu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRESTRFT,Drżenie podczas odpoczynku - prawa stopa,"{'0': 'Brak', '1': 'Nieznacze i pojawia się rzadko', '2': 'Łagodna amplituda i czas trwaniu; lub umiarkowana amplituda, ale obecne tylko czasami', '3': 'Umiarkowana amplituda i obecne przez większość czasu', '4': 'Ciężka amplituda i obecne przez większość czasu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRESTLFT,Drżenie podczas odpoczynku - lewa stopa,"{'0': 'Brak', '1': 'Nieznacze i pojawia się rzadko', '2': 'Łagodna amplituda i czas trwaniu; lub umiarkowana amplituda, ale obecne tylko czasami', '3': 'Umiarkowana amplituda i obecne przez większość czasu', '4': 'Ciężka amplituda i obecne przez większość czasu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRACTRHD,Drżenie kinetyczne i pozycyjne - prawa ręka,"{'0': 'Brak', '1': 'Niewielkie; obecne podczas wykonywania ruchu', '2': 'Umiarkowana amplituda, obecne podczas wykonywania ruchu', '3': 'Umiarkowana amplituda zarówno podczas ruchu jak i przy utrzymaniu pozycji', '4': 'Ciężka aplituda; przeszkada w jedzeniu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TRACTLHD,Drżenie kinetyczne i pozycyjne - lewa ręka,"{'0': 'Brak', '1': 'Niewielkie; obecne podczas wykonywania ruchu', '2': 'Umiarkowana amplituda, obecne podczas wykonywania ruchu', '3': 'Umiarkowana amplituda zarówno podczas ruchu jak i przy utrzymaniu pozycji', '4': 'Ciężka aplituda; przeszkada w jedzeniu', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+RIGDNECK,Sztywność - kark,"{'0': 'Brak', '1': 'Niezanczna lub wykrywalna tylko, gdy aktywowana przez ruch w kończynie, która nie jest oceniana lub inny ruch', '2': 'Łagodna do umiarkowanej', '3': 'Średnia, ale pełny zakres ruchów jest łatwy do osiągnięcia', '4': 'Ciężka, pełny zakres ruchów jest osiągany z trudnością', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+RIGDUPRT,Sztywność - prawa kończyna górna,"{'0': 'Brak', '1': 'Niezanczna lub wykrywalna tylko, gdy aktywowana przez ruch w kończynie, która nie jest oceniana lub inny ruch', '2': 'Łagodna do umiarkowanej', '3': 'Średnia, ale pełny zakres ruchów jest łatwy do osiągnięcia', '4': 'Ciężka, pełny zakres ruchów jest osiągany z trudnością', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+RIGDUPLF,Sztywność - lewa kończyna górna,"{'0': 'Brak', '1': 'Niezanczna lub wykrywalna tylko, gdy aktywowana przez ruch w kończynie, która nie jest oceniana lub inny ruch', '2': 'Łagodna do umiarkowanej', '3': 'Średnia, ale pełny zakres ruchów jest łatwy do osiągnięcia', '4': 'Ciężka, pełny zakres ruchów jest osiągany z trudnością', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+RIGDLORT,Sztywność - prawa kończyna dolna,"{'0': 'Brak', '1': 'Niezanczna lub wykrywalna tylko, gdy aktywowana przez ruch w kończynie, która nie jest oceniana lub inny ruch', '2': 'Łagodna do umiarkowanej', '3': 'Średnia, ale pełny zakres ruchów jest łatwy do osiągnięcia', '4': 'Ciężka, pełny zakres ruchów jest osiągany z trudnością', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+RIGDLOLF,Sztywność - lewa kończyna dolna,"{'0': 'Brak', '1': 'Niezanczna lub wykrywalna tylko, gdy aktywowana przez ruch w kończynie, która nie jest oceniana lub inny ruch', '2': 'Łagodna do umiarkowanej', '3': 'Średnia, ale pełny zakres ruchów jest łatwy do osiągnięcia', '4': 'Ciężka, pełny zakres ruchów jest osiągany z trudnością', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TAPSRT,Szybkie ruchy palców - prawa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+TAPSLF,Szybkie ruchy palców - lewa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+HANDMOVR,Ruchy ręki - prawa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+HANDMOVL,Ruchy ręki - lewa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+HANDALTR,Ruchy naprzemienne ręki - prawa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+HANDALTL,Ruchy naprzemienne ręki - lewa ręka,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+LEGRT,Zwinność kończyn dolnych - prawa noga,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+LEGLF,Zwinność kończyn dolnych - lewa noga,"{'0': 'Normalne', '1': 'Łagodne spowolnienie i/lub zmniejszenie amplitudy', '2': 'Średnie upośledzenie; wyraźne i szybkie zmęczenie; mogą wystąpić okazjonalne przerwy w ruchu', '3': 'Ciężkie upośledzenie; częste wahanie przy rozpoczęciu ruchów lub przerwy w trwającym ruchu', '4': 'Pacjent ledwo jest w stanie wykonać zadanie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+ARISING,Wstawanie z krzesła,"{'0': 'Normalne', '1': 'Wolne; lub może potrzebować więcej niż jednego podejścia', '2': 'Podnosi się wspomagając o podłokietniki', '3': 'Ma tendencję do upadania z powrotem na krzesło i może potrzebować więcej niż jednego podejścia, ale może wstać bez pomocy', '4': 'Niezdolny do powstania bez pomocy', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+POSTURE,Postawa,"{'0': 'Normalna', '1': 'Nie do końca wyprostowana, lekko pochylona postawa; może być normalna dla starszych ludzi', '2': 'Umiarkowanie pochylona postawa, zdecydowanie abnormalna; może lekko przechylać się na jedną stronę', '3': 'Ciężkie pochylenie postawy z kifozą; może umiarkowanie przechylać się na jedną stronę', '4': 'Ciężkie zgięcie z ekstremalnymi nieprawidłowość w postawie', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+GAIT,Chód,"{'0': 'Normalny', '1': 'Pacjent chodzi powoli; może chłapać małyi krokami, ale nie potrzebuje korzystać z laski/balkonika', '2': 'Pacjent ma trudności w chodzeniu, ale wymaga tylko częściowej pomocy lub nie wymaga jej wcale; może chodzić małmi krokami, chwiać się lub używać laski/balonika', '3': 'Poważne zaburzenia chodu wymagające wsparcia osób trzecich', '4': 'Pacjent nie jest w stanie chodzić bez pomocy osób trzecich', '8': 'Niemożliwy do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+POSSTAB,Stabilność postawy,"{'0': 'Postawa normalna, wyprostowana', '1': 'Obecność retropulsji (tendencj do padania do tyłu), ale odzyskuje równowagę samodzielnie', '2': 'Brak prób korekty postawy; pacjent upadłby bez pomocy egzaminującego', '3': 'Bardzo niestabilna, ma skłonność do spontaniczej utraty równowagi', '4': 'Niezdolny do stania bez zewnętrznego wsparcia', '8': 'Niemożliwa do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+BRADYKIN,bradykinezja i hipokinezja,"{'0': 'Brak', '1': 'Minimalna powolność, nadająca ruchom celowy charakter; może być to normą dla niektórych osób; możliwe zmniejszenie amplitudy', '2': 'Łagodne spowolnienie ruchów i ograniczenie zkresu ruchów, które jest zdecydowanie abnormalne. Alternatywnie, widoczne zmniejszenie amplitudy', '3': 'Umiarkowane spowolnienie, ograniczenie zakresu i amplitudy ruchów', '4': 'Ciężkie spowolnienie, ograniczenie zakresu i amplitudy ruchów', '8': 'Niemożliwe do przetestowania'}",Unified Parkinson's Disease Rating Scale (UPDRS)
+NPIQINF,Osoba współtowarzysząca w NPI-Q,"{'1': 'Małżonek', '2': 'Dziecko', '3': 'Inna'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+DEL,Urojenia w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+HALL,Halucynacje w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+AGIT,Pobudzenie lub agrsja w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+DEPD,Depresja lub dysforia w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+ANX,Lęk w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+ELAT,Euforia lub rozradowanie w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+APA,Apatia lub obojętnośćw ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+DISN,Rozhamowanie w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+IRR,Irytacja lub drażliwość w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+MOT,Aberracyjne zachowania motoryczne w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+NITE,Nocna aktywność w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+APP,Apetyt i problemy z jedzeniem w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Neuropsychiatric Inventory Questionnaire (NPI-Q)
+NOGDS,"Czy pacjent jest zdolny do wykonania testu GDS, zgodnie z najlepszą oceną klinicysty?","{'0': 'Zdolny do wykonania GDS', '1': 'Niezdolny do wykonania GDS'}",Geriatric Depression Scale (GDS)
+SATIS,"Myśląc o całym swoim życiu, czy jest Pan(i) z niego zadowolony(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+DROPACT,"Czy zmniejszyła się liczba Pani(-a) aktywności i zainteresowań?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+EMPTY,"Czy ma Pan(i) poczucie, że życie jest puste?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+BORED,"Czy często czuje się Pan(i) znudzony(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+SPIRITS,"Czy jest Pan(i) w dobrym nastroju przez większość czasu?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+AFRAID,"Czy obawia się Pan(i), że może się zdarzyć Panu(-i) coś złego?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+HAPPY,"Czy przez większość czasu czuje się Pan(i) szczęśliwy(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+HELPLESS,"Czy często czuje się Pan(i) bezradny(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+STAYHOME,"Czy zamiast wyjść z domu, woli Pan(i) w nim pozostać?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+MEMPROB,"Czy czuje Pan(i), że ma więcej kłopotów z pamięcią niż inni ludzie?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+WONDRFUL,"Czy myśli Pan(i), że wspaniale jest żyć?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+WRTHLESS,"Czy obecnie czuje się Pan(i) gorszy(-a) od innych ludzi?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+ENERGY,"Czy czuje się Pan(i) pełny(-a) energii?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+HOPELESS,"Czy uważa Pan(i), że sytuacja jest beznadziejna?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+BETTER,"Czy mysli Pan(i), że ludzie są lepsi niż Pan(i)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
+NACCGDS,Wynik łączny GDS,{'zakres': '0 - 15'},Geriatric Depression Scale (GDS)
+BILLS,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: płaceniu rachunków, pałceniu w sklpach, balansowaniu stanem konta?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+TAXES,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: składaniu zeznań podatkowych, kwestiach biznesowych lub innych innych dokumentów?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+SHOPPING,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: samodzielnym kupowaniu ubrań, artykułów domowych lub spożywczych?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+GAMES,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: graniu w grę wymagającą biegłości, np. brydż lub szachy, uprawianiem hobby?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+STOVE,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: gotowaniu wody, parzeniu kawy, wyłaczaniu kuchenki?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+MEALPREP,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: przygotowaniu zbalansowanego posiłku?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+EVENTS,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: śledeniu bieżących wydarzeń?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+PAYATTN,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: skupieniu uwagi na i rozumieniu programów telewizyjnych, książki lub magazynu?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+REMDATES,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: pamiętaniu spotkań, uroczystości rodzinnych, dni tygodnia, przyjmowaniaa leków?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+TRAVEL,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: podróżowaniu poza sąsiedztwo, kierowaniu lub przemieszczaniu się transpprtwem publicznycm?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Nieznany'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
+NACCNREX,Czy wszystkie wyniki niczym się nie wyróżniały?,"{'0': 'Nieprawidłowe wyniki', '1': 'Brak nieprawidłowych wyników lub wyniki normalne dla wieku', '9': 'Nieznany'}",Wyniki Testów Fizycznych/Neurologicznych
+NORMEXAM,Czy odnotowano nieprawidłowe wyniki dla testów neurologicznych?,"{'0': 'Brak nieprawidłowych wyników', '1': 'Tak - nieprawidłowe wyniki były zgodne z syndromami opisanymi w pytaniach 2-8', '2': 'Tak - nieprawidłowe wyniki były zgodne ze zmianami związanymi z wiekiem lub niepowiązane z chorobami otępiennymi (np. porażenie Bella, G51.0)'}",Wyniki Testów Fizycznych/Neurologicznych
+FOCLDEF,Czy są obecne deficyty tkanki nerwowej wskaujące na zaburzenie ośrodkowego układu nerwowego?,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Wyniki Testów Fizycznych/Neurologicznych
+GAITDIS,Czy jest obecne zaburzenie chodu wskazujące na zaburenie ośrodkowego układu nerwowego?,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Wyniki Testów Fizycznych/Neurologicznych
+EYEMOVE,Czy są obecne anomalie ruchu gałek ocznych wskazujące na zaburzenie ośrodkowego układu nerwowego?,"{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Wyniki Testów Fizycznych/Neurologicznych
+PARKSIGN,Oznaki Parkinsonizmu,"{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+RESTTRL,Drżenie spoczynkowe - lewa ręka,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+RESTTRR,Drżenie spoczynkowe - prawa ręka,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SLOWINGL,Spowolnienie precyzyjnych ruchów motorycznych - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SLOWINGR,Spowolnienie precyzyjnych ruchów motorycznych - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+RIGIDL,Sztywność - lewa ręka,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+RIGIDR,Sztywność - prawa ręka,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+BRADY,Bradykinezja,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+PARKGAIT,Zaburzenie chodu związane z Parkinsonizmem,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+POSTINST,Niestabilność postawy,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CVDSIGNS,Objawy neurologiczne uznane przez egzaminującego za silnie powiązane z chorobą naczyniowo-mózgową,"{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+CORTDEF,"Deficyt poznawczy kory mózgowej (np. afazja, apraksja, zaniedbanie)","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SIVDFIND,Zanikowe lub inne neurologiczne wyniki zgodne z SIVD (podkorowym niedokrwiennym otępieniem naczyniowym),"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CVDMOTL,"Funkcje ruchowe (może obejmować słabość będącą kombinacją twarzy, ręki i nogi; zmainy refleksu itp.) - lewa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CVDMOTR,"Funkcje ruchowe (może obejmować słabość będącą kombinacją twarzy, ręki i nogi; zmainy refleksu itp.) - prawa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CORTVISL,Korowa utrata pola widzenia - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CORTVISR,Korowa utrata pola widzenia - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SOMATL,Utrata czucia somatycznego - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SOMATR,Utrata czucia somatycznego - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+POSTCORT,"Zaburzenia kory wzrokowej sugerujące suggesting zanik korowy tylny (np. prozopagnozja, simultanagnozja, Zespół Bálinta) lub apraksja ruchów gałek ocznych","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+PSPCBS,"Wyniki wskazują na postępujące porażenie nadjądrowe (PSP), zwyrodnienie korowo-podstawne (CBS) lub inne powiązane choroby","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+EYEPSP,Zmainy ruchów gałek ocznych występujące z  PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+DYSPSP,Dyzartria występująca z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+AXIALPSP,Sztywność osiowa występująca z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+GAITPSP,Zaburzenia chodu występujące z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+APRAXSP,Apraksja mowy,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+APRAXL,Apraksja występująca z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+APRAXR,Apraksja występująca z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CORTSENL,Deficyty sensoryczne kory mózgowej występujące z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CORTSENR,Deficyty sensoryczne kory mózgowej występujące z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+ATAXL,Ataksja występująca z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+ATAXR,Ataksja występująca z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+ALIENLML,Zespół obcej ręki występujący z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+ALIENLMR,Zespół obcej ręki występujący z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+DYSTONL,"Dystonia występująca z CBS, PSP lub powiązana chorobą - lewa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+DYSTONR,"Dystonia występująca z CBS, PSP lub powiązana chorobą - prawa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+MYOCLLT,Mioklonie występujące z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+MYOCLRT,Mioklonie występujące z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+ALSFIND,"Wyniki sugerujące stwarnienie zanikowe boczne ALS (np. zaniki mięśniowe, fascykulacje, spastyczny niedowład kończyn dolnych i/lub kończyn górnych)","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+GAITNPH,Wodogłowie normotensyjne - apraksja chodu,"{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+OTHNEUR,"Inne wyniki (np. ataksja móżdżkowa, pląsawica, mioklonie)","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+MMSECOMP,Czy jakaś część testu MMSE została wykonana?,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MMSELOC,MMSE zostało wykonane:,"{'1': 'W ośrodku/klinice', '2': 'W domu', '3': 'Osobiście - inaczej'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MMSELAN,"Język, w którym wykonano MMSE","{'1': 'Angielski', '2': 'Hiszpański', '3': 'Inny'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MMSEVIS,Pacjent nie był w stanie dokończyć jednej lub więcej części z powodu upośledzenia wzoku (MMSE),"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MMSEHEAR,Pacjent nie był w stanie dokończyć jednej lub więcej części z powodu upośledzenia słuchu (MMSE),"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MMSEORDA,MMSE wyniki - orientacja w czasie,{'zakres': '0 - 5'},Podsumowanie Wyników Testów Neuropsychologicznych
+MMSEORLO,MMSE wyniki - orientacja w przestrzeni,{'zakres': '0 - 5'},Podsumowanie Wyników Testów Neuropsychologicznych
+PENTAGON,MMSE wyniki - praksja konstrukcyjna (przerysowywanie pięciokątów),{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+NACCMMSE,Łączny wynik MMSE,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+NPSYCLOC,Pozostała część pytań z puli została wykonana:,"{'1': 'W ośrodku/klinice', '2': 'W domu', '3': 'Osobiście - inaczej'}",Podsumowanie Wyników Testów Neuropsychologicznych
+NPSYLAN,"Język, w którym wykonano test","{'1': 'Angielski', '2': 'Hiszpański', '3': 'Inny'}",Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIMO,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 miesięcy, sprecyzuj datę jego wykonania (miesiąc)",{'zakres': '1 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIDAY,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 miesięcy, sprecyzuj datę jego wykonania (dzień)",{'zakres': '1 - 31'},Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIYR,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 miesięcy, sprecyzuj datę jego wykonania (rok)",{'zakres': '>= 1875'},Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIPREV,Łączny wynik test podczas jego poprzedniego wykonania,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIMEM,Łączna liczba jednostek przypomnianych z aktualnego wykonania testu,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+MEMUNITS,"Logical Memory IIA - Opóźniony - Łączna liczba historii przypomnianych",{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+MEMTIME,"Logical Memory IIA - Opóźniony - Czas, kóy upłynął od Logical Memory IA - Natychmiastowy",{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSBENTC,Łączny wynik dla kopiowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSBENTD,Łączny wynik dla 10- do 15-minutowego opóźnionego rysowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSBENRS,Rozpoznanie otginalnego bodźca spośród czterech opcji,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIF,Test powtarzania liczb wprzód - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIFLEN,Test powtarzania liczb wprzód - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIB,Test powtarzania liczb wstecz - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIBLEN,Test powtarzania liczb wstecz - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
+ANIMALS,Zwirzęta - Łączna liczba zwierząt nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
+VEG,Warzywa - Łączna liczba warzyw nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILA,Test łączenia kresek Część A - Łączna liczba sekund potrzebnych do zakończenia,{'zakres': '0 - 150'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILARR,Test łączenia kresek Część A - liczba popełnionych błędów,{'zakres': '0 - 40'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILALI,Test łączenia kresek Część A - liczba poprawnych lini,{'zakres': '0 - 24'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILB,Test łączenia kresek Część B - Łączna liczba sekund potrzebnych do zakończenia,{'zakres': '0 - 300'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILBRR,Test łączenia kresek Część B - liczba popełnionych błędów,{'zakres': '0 - 40'},Podsumowanie Wyników Testów Neuropsychologicznych
+TRAILBLI,Test łączenia kresek Część B - liczba poprawnych lini,{'zakres': '0 - 24'},Podsumowanie Wyników Testów Neuropsychologicznych
+WAIS,WAIS-R Digit Symbol,{'zakres': '0 - 93'},Podsumowanie Wyników Testów Neuropsychologicznych
+BOSTON,Bostoński Test Nazywania (30) - Łączny wynik,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERFC,Liczba poprawnych słów na literę F wygenerownych w 1 minutę,{'zakres': '0 - 40'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERFN,Liczba poprawnych słów na literę F powtórzonych w ciągu 1 minuty,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERNF,Liczba słów na literę inną niż F i naruszeń reguł w ciągu 1 minuty,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERLC,Liczba poprawnych słów na literę L wygenerownych w 1 minutę,{'zakres': '0 - 40'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERLR,Liczba poprawnych słów na literę L powtórzonych w ciągu 1 minuty,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERLN,Liczba słów na literę inną niż L i naruszeń reguł w ciągu 1 minuty,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERTN,Łączna liczba poprawnych słów na literę F i L,{'zakres': '0 - 80'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERTE,Łączna liczba powtórzonych słów na literę F i L,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSVERTI,Łączna liczba słów na inną literę niż F i L oraz naruszających reguły,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+COGSTAT,"Zgodnie z oceną klinicysty i w oparciu na wyniki wywiadu neuropsychologicznego stan psychologiczny pacjenta został zaklasyfikaowany następująco:","{'0': 'Klinicysta niezdolny do wystawienia opinii', '1': 'Lepszy niż norma w grupie wiekowej', '2': 'Normalny dla grupy wiekowej', '3': 'Jeden lub dwa wyniki przekraczajace normę', '4': 'Trzy lub więcej wyniki przekraczajace normę lub niższe niż oczekiwano', '9': 'Brak opinii/brakujące dane'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCACOMP,Czy wykonano jakąkolwiek część testu MoCA?,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAREAS,"Jeżeli nie wykonano żadnej części MoCA, podaj przyczynę","{'95': 'Problemy fizyczne/ruchowe', '96': 'Problemy kognitywne/behawioralne', '97': 'Inne problemy', '98': 'Odmowa ustna'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCALOC,Gdzie przeprowadzono test MoCa?,"{'1': 'W ośrodku/klinice', '2': 'W domu', '3': 'Osobiście - inaczej'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCALAN,"Język, w którym przeprowadzono test MoCA","{'1': 'Angielski', '2': 'Hiszpański', '3': 'Inny'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAVIS,Pacjent nie był w stanie dokończyć jednej lub więcej części z powodu upośledzenia wzoku (MoCA),"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAHEAR,Pacjent nie był w stanie dokończyć jednej lub więcej części z powodu upośledzenia słuchu (MoCA),"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCATOTS,MoCA Łączny wynik bez korekty,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+NACCMOCA,MoCA Łączny wynik z korektą na edukację,{'zakres': '0 - 30'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCATRAI,MoCA: Wzrokowo-przestrzenne/wykonawcze - Łączenie punktów,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCACUBE,MoCA: Wzrokowo-przestrzenne/wykonawcze - Sześcian,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCACLOC,MoCA: Wzrokowo-przestrzenne/wykonawcze - Okrąg zegara,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCACLON,MoCA: Wzrokowo-przestrzenne/wykonawcze - Cyfry zegara,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCACLOH,MoCA: Wzrokowo-przestrzenne/wykonawcze - Wskazówki zegara,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCANAMI,MoCA: Język - Nazywanie,{'zakres': '0 - 3'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAREGI,MoCA: Pamięć - Powtarzanie (dwa podejścia),{'zakres': '0 - 10'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCADIGI,MoCA: Uwaga - Cyfry,{'zakres': '0 - 2'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCALETT,MoCA: Uwaga - Litera A,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCASER7,MoCA: Uwaga - Odejmowanie 7,{'zakres': '0 - 3'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAREPE,MoCA: Język - Powtarzanie,{'zakres': '0 - 2'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAFLUE,MoCA: Język - Fluencja,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAABST,MoCA: Abstrahowanie,{'zakres': '0 - 2'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCARECN,MoCA: Odroczone przypomnienie - Bez wskazówek,{'zakres': '0 - 5'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCARECC,MoCA: Odroczone przypomnienie - Podpowiedź kategorii,{'zakres': '0 - 5'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCARECR,MoCA: Odroczone przypomnienie - Rozpoznanie,{'zakres': '0 - 5'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORDT,MoCA: Orientacja - Data,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORMO,MoCA: Orientacja - Miesiąc,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORYR,MoCA: Orientacja - Rok,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORDY,MoCA: Orientacja - Dzień,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORPL,MoCA: Orientacja - Miejsce,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+MOCAORCT,MoCA: Orientacja - Miasto,{'zakres': '0 - 1'},Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTVRS,"Craft Story 21 Recall (Bezpośrednie/natychmiastowe) - Łączna liczba wymienionych/przypomnianych części historii, dokładne przytoczenie",{'zakres': '0 - 44'},Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTURS,"Craft Story 21 Recall (Bezpośrednie/natychmiastowe) - Łączna liczba wymienionych/przypomnianych części historii, ocena parafrazowania",{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGFORCT,Number Span Test: Wprzód - Liczba poprawnych podejeść,{'zakres': '0 - 14'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGFORSL,Number Span Test: Wprzód - Najdłuższy ciąg cyfr wprzod,"{'0': nan, 'zakres': '3 - 9'}",Podsumowanie Wyników Testów Neuropsychologicznych
+DIGBACCT,Number Span Test: Wspak - Liczba poprawnych podejeść,{'zakres': '0 - 14'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGBACLS,Number Span Test: Wspak - Najdłuższy ciąg cyfr wspak,"{'0': nan, 'zakres': '2 - 8'}",Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTDVR,"Craft Story 21 Recall (Odroczone) - Łączna liczba wymienionych/przypomnianych części historii, dokładne przytoczenie",{'zakres': '0 - 44'},Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTDRE,"Craft Story 21 Recall (Odroczone) - Łączna liczba wymienionych/przypomnianych części historii, ocena parafrazowania",{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTDTI,Craft Story 21 Recall (Odroczone) - Czas odroczenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+CRAFTCUE,Craft Story 21 Recall (Odroczone) - Czy potrzebne były wskaówki?,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MINTTOTS,Multilingual Naming Test (MINT) - Łączny wynik,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MINTTOTW,Multilingual Naming Test (MINT) - Łączny wynik bez wskazówek semantycznych,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MINTSCNG,Multilingual Naming Test (MINT) - Liczba podanych wskazówek semantycznych,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MINTSCNC,Multilingual Naming Test (MINT) - Liczba poprawnie wykorzystanych wskazówek semantycznych,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MINTPCNG,Multilingual Naming Test (MINT) - Liczba podanych wskazówek fonetycznych,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MINTPCNC,Multilingual Naming Test (MINT) - Liczba poprawnie wykorzystanych wskazówek fonetycznych,{'zakres': '0 - 32'},Podsumowanie Wyników Testów Neuropsychologicznych
+MODCOMM,Medium komunikacji wykorzystane do przeprowadzenia zestawu testów neuropsychologicznych,"{'1': 'Telefon', '2': 'Wideokonferencja', '3': 'Dowolna ich kombinacja'}",Podsumowanie Wyników Testów Neuropsychologicznych
+MOCBTOTS,MoCA zaślepione - Łączny wynik bez korekty,{'zakres': '0 - 22'},Podsumowanie Wyników Testów Neuropsychologicznych
+NACCMOCB,MoCA zaślepione - Łączny wynik z korektą na edukację,{'zakres': '0 - 22'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY1REC,Test Reya dotyczący uczenia się słuchowego: Podejście 1 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY1INT,Test Reya dotyczący uczenia się słuchowego: Podejście 1 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY2REC,Test Reya dotyczący uczenia się słuchowego: Podejście 2 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY2INT,Test Reya dotyczący uczenia się słuchowego: Podejście 2 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY3REC,Test Reya dotyczący uczenia się słuchowego: Podejście 3 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY3INT,Test Reya dotyczący uczenia się słuchowego: Podejście 3 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY4REC,Test Reya dotyczący uczenia się słuchowego: Podejście 4 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY4INT,Test Reya dotyczący uczenia się słuchowego: Podejście 4 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY5REC,Test Reya dotyczący uczenia się słuchowego: Podejście 5 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY5INT,Test Reya dotyczący uczenia się słuchowego: Podejście 5 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY6REC,Test Reya dotyczący uczenia się słuchowego: Podejście 6 łączna liczba zapamiętanych słów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REY6INT,Test Reya dotyczący uczenia się słuchowego: Podejście 6 przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRAILA,Ustny Test Łączenia Kresek - Część A: Łączna liczba sekund potrzebnych do jej wykonania,{'zakres': '0 - 100'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRLARR,Ustny Test Łączenia Kresek - Część A: Liczba popełnionych błędów,{'zakres': '0 - 99'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRLALI,Ustny Test Łączenia Kresek - Część A: Liczba poprawnych linii,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRAILB,Ustny Test Łączenia Kresek - Część B: Łączna liczba sekund potrzebnych do jej wykonania,{'zakres': '0 - 300'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRLBRR,Ustny Test Łączenia Kresek - Część B: Liczba popełnionych błędów,{'zakres': '0 - 99'},Podsumowanie Wyników Testów Neuropsychologicznych
+OTRLBLI,Ustny Test Łączenia Kresek - Część B: Liczba poprawnych linii,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+REYDREC,Test Reya dotyczący uczenia się słuchowego: Łączne liczba poprawnie przypomnianych po odroczeniu,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REYDINT,Test Reya dotyczący uczenia się słuchowego: odroczone przerwy/wtrącenia,{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+REYTCOR,Test Reya dotyczący uczenia się słuchowego: Łączna liczba poprawnie rozpoznanych,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+REYFPOS,Test Reya dotyczący uczenia się słuchowego: Łączna liczba rozpoznanych fałszywych pozytywów,{'zakres': '0 - 15'},Podsumowanie Wyników Testów Neuropsychologicznych
+VNTTOTW,Ustny test nazywania: Łączna liczba poprawnych odpowiedzi bez wskazówek,{'zakres': '0 - 50'},Podsumowanie Wyników Testów Neuropsychologicznych
+VNTPCNC,Ustny test nazywania: Łączna liczba poprawnych odpowiedzi z wskazówkami werbalnymi,{'zakres': '0 - 50'},Podsumowanie Wyników Testów Neuropsychologicznych
+RESPVAL,Za jak bardzo przekonujące/wiążące oceniasz odpowiedzi pacjenta?,"{'1': 'Bardzo przekonujące, prawdopodobnie dokładnie oddające stan psychologiczny pacjenta', '2': 'Budzące wątpliwości, możliwe, że nie oddają dokładnie stanu psychologicznego pacjenta', '3': 'Niewiarygodne, prawdopodobnie niedokładnie oddają stan psychiczny pacjenta'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPHEAR,Co umniejsza wiarygodność odpowiedzi pacjenta? Upośledzenie słuchu,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPDIST,Co umniejsza wiarygodność odpowiedzi pacjenta? Rozproszenie,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPINTR,Co umniejsza wiarygodność odpowiedzi pacjenta? Wtrącenia/Zakłucenia,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPDISN,Co umniejsza wiarygodność odpowiedzi pacjenta? Brak zaanagrzowania lub wysiłku,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPFATG,Co umniejsza wiarygodność odpowiedzi pacjenta? Zmęczenie,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPEMOT,Co umniejsza wiarygodność odpowiedzi pacjenta? Problemy emocjonalne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPASST,Co umniejsza wiarygodność odpowiedzi pacjenta? Niezaaprobowana pomoc,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPOTH,Co umniejsza wiarygodność odpowiedzi pacjenta? Inne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+NACCNE4S,Liczba alleli APOE e4,"{'0': 'Brak allelu e4', '1': '1 kopia allelu e4', '2': '2 kopie allelu e4', '9': 'Nieznany'}",Genetic Data
