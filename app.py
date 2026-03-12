@@ -1,0 +1,257 @@
+import streamlit as st
+import json
+import random
+import pandas as pd
+import pickle
+import json
+
+# set page configuration to wide mode
+st.set_page_config(layout="wide")
+st.badge("agpl-3.0 license", color="blue")
+# section 1
+st.markdown("#### About")
+st.markdown("Differential diagnosis of dementia remains a challenge in neurology due to symptom overlap across etiologies, yet it is crucial for formulating early, personalized management strategies. Here, we present an AI model that harnesses a broad array of data, including demographics, individual and family medical history, medication use, neuropsychological assessments, functional evaluations, and multimodal neuroimaging, to identify the etiologies contributing to dementia in individuals.")
+st.markdown("Links:\n* Paper: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub: [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Our lab: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)")
+
+# section 2
+st.markdown("#### Minimodel")
+st.markdown("Model został zaadaptowany z Hugging Face Space. Wykorzystuje ponad 300 parametrów na temat stanu pacjenta do oszacowania prawdopodobieństwa obecności u pacjenta wybranych schorzeń związanych z mózgiem.")
+st.markdown("Link:\n* HuggingFace: [https://huggingface.co/spaces/vkola-lab/nmed2024](https://huggingface.co/spaces/vkola-lab/nmed2024)\n")
+st.markdown("By użyć minimodel:\n* Wprowadź dane wejściowe do poniższego formularza. Dozwolone jest niewypełnianie wszystkich pozycji.\n* Kliknij na przycisk\"**LOSOWY PRZYKŁAD**\" by wypełnić formularz losowym zestawem parametrów.\n* Użuj przycisku \"**PREDYKCJA**\" by przesłać dane z formularza do modelu i otrzymać w tabeli przewidywane wyniki.")
+
+# load model
+@st.cache_resource
+def load_model():
+    import adrd
+    # try:   
+    # except:
+    #     # ckpt_path = '../adrd_tool_copied_from_sahana/dev/ckpt/ckpt_swinunetr_stripped_MNI.pt'
+    #     ckpt_path = '/data_1/skowshik/ckpts_backbone_swinunet/ckpt_swinunetr_stripped_MNI.pt'
+    #     model = adrd.model.ADRDModel.from_ckpt(ckpt_path, device='cpu')
+    ckpt_path = 'ckpt_swinunetr_stripped_MNI.pt'
+    model = adrd.model.ADRDModel.from_ckpt(ckpt_path, device='cpu')
+    return model
+
+model = load_model()
+
+def predict_proba(data_dict):
+    pred_dict = model.predict_proba([data_dict])[1][0]
+    return pred_dict
+
+# load meta data csv
+file_path = './data/input_meta_info.csv'
+input_meta_info = pd.read_csv(file_path)
+
+# load NACC testing data
+from data.dataset_csv import CSVDataset
+dat_tst = CSVDataset(
+    dat_file = "./data/test_public.csv", 
+    cnf_file = "./data/input_meta_info.csv"
+)
+
+def get_random_example():
+    idx = random.randint(0, len(dat_tst) - 1)
+    random_case = dat_tst[idx][0]
+    return random_case
+
+# Get random example features if the button is clicked
+if 'random_example' not in st.session_state:
+    st.session_state.random_example = None
+
+st.markdown('---')
+cols = st.columns(3)
+with cols[1]:
+    random_example_button = st.button("LOSOWY PRZYKŁAD", use_container_width=True)
+if random_example_button:
+    st.session_state.random_example = get_random_example()
+    st.rerun()
+
+random_example = st.session_state.random_example
+
+def create_input(df, i):
+    row = df.iloc[i]
+    name = row['Name']
+    description = row['Description']
+
+    # dirty work, inspect keys and values
+    values = row['Values']
+    values = values.replace('\'', '\"')
+    values = values.replace('\"0\": nan, ', '')
+    values = json.loads(values)
+
+    for k, v in list(values.items()):
+        if v == 'Nieznany':
+            values.pop(k)
+        elif k in ('9', '99', '999'):
+            values.pop(k)
+
+        # get default value from random example if available
+    default_value = random_example[name] if random_example and name in random_example else None
+    if type(default_value) is float:
+        default_value = int(default_value)
+
+    # Determine the type of widget based on values
+    if 'zakres' in values:
+        if ' - ' in values['zakres']:
+            min_value, max_value = map(float, values['zakres'].split(' - '))
+            min_value, max_value = int(min_value), int(max_value)
+
+            if default_value is not None:
+                if default_value > max_value or default_value < min_value:
+                    default_value = None
+                
+            st.number_input(description, key=name, min_value=min_value, max_value=max_value, value=default_value, placeholder=values['zakres'])
+        else:
+            min_value = int(values['zakres'].replace('>= ', ''))
+            if default_value is not None:
+                if default_value < min_value or default_value == 8888:
+                    default_value = None
+
+            st.number_input(description, key=name, min_value=min_value, value=default_value, placeholder=values['zakres'])
+    else:
+        values = {int(k): v for k, v in values.items()}
+        if default_value in values:
+            default_index = list(values.keys()).index(default_value)
+        else:
+            default_index = None
+
+        st.selectbox(
+            description, 
+            options = values.keys(), 
+            key = name, 
+            index = default_index,
+            format_func=lambda x: values[x],
+            placeholder="Wybierz opcję"
+        )
+
+# create form
+with st.form("dynamic_form"):
+    sections = input_meta_info['Section'].unique()
+    for section in sections:
+        with st.container():
+            st.markdown(f"##### {section}")
+            sub_df = input_meta_info[input_meta_info['Section'] == section]
+
+            cols = st.columns(3)
+#            for c in cols:
+#                print(c)
+            with cols[0]:
+                for i in range(0, len(sub_df), 3):
+                    create_input(sub_df, i)
+            with cols[1]:
+                for i in range(1, len(sub_df), 3):
+                    create_input(sub_df, i)
+            with cols[2]:
+                for i in range(2, len(sub_df), 3):
+                    create_input(sub_df, i)    
+
+        # seperate line
+        st.markdown("---")
+
+    with cols[1]:
+        predict_button = st.form_submit_button("PREDYKCJA", use_container_width=True, type='primary')
+
+# load mapping
+with open('./data/nacc_variable_mappings.pkl', 'rb') as file:
+    nacc_mapping = pickle.load(file)
+
+def convert_dictionary(original_dict, mappings,is_SI=False):
+    transformed_dict = {}
+    
+    for key, value in original_dict.items():
+        if key in mappings:
+            if is_SI:
+                if key=="HEIGHT" and not value is None:
+                    # cm -> inches 
+                    value = value*0.3937
+                elif key == "WEIGHT" and not value is None:
+                    # Kg -> Ibs
+                    value = value*2.2
+
+            new_key, transform_map = mappings[key]
+            
+            # If the value needs to be transformed
+            if value in transform_map:
+                transformed_value = transform_map[value]
+            else:
+                transformed_value = value  # Keep the original value if no transformation is needed
+            
+            transformed_dict[new_key] = transformed_value
+    
+    return transformed_dict
+
+if predict_button:
+    # get form input
+    names = input_meta_info['Name'].tolist()
+    data_dict = {}
+    for name in names:
+        data_dict[name] = st.session_state[name]
+    
+    # convert + from SI
+    data_dict = convert_dictionary(data_dict, nacc_mapping,True)
+    pred_dict = predict_proba(data_dict)
+
+    # change key name and value representations
+    key_mappings = {
+        'NC': 'Normalne poznanie',
+        'MCI': 'Łagodne zaburzenia procesów poznawczych',
+        'DE': 'Demencia',
+        'AD': 'Choroba Alzheimera',
+        'LBD': 'Otępienie z ciałami Lewy\'ego i choroba Parkinsona',
+        'VD': 'Uraz naczyniowy mózgu lub otępienie naczyniopochodne obejmujące udarowe',
+        'PRD': 'Choroby prionowe, w tym choroba Creutzfeldta-Jakoba',
+        'FTD': 'Otępienie czołowo-skroniowe',
+        'NPH': 'Wodogłowie normotensyjne',
+        'SEF': 'Czynniki systemowe i zewnętrzne',
+        'PSY': 'Choroby psychatryczne',
+        'TBI': 'Urazowe uszkodzenie mózgu',
+        'ODE': 'Inne przyczyny, obejmujące nowotwory, zanik wieloukładowy, drżenie samoistne, chorobę Huntingtona, zespół Downa i napady padaczkowy'
+    }
+    val = list(pred_dict.values())
+    pred_dict = {key_mappings[k]: f"{v * 100:.2f}%" for k, v in pred_dict.items()}
+
+    df = pd.DataFrame(list(pred_dict.items()), columns=['Etykieta', 'Przewidziane prawdopodobieństwo'])
+    st.table(df)
+    df2 = pd.DataFrame(list({a:round(b*100,2) for a,b in enumerate(val)}.items()),
+        columns=['Etykieta', 'Przewidziane prawdopodobieństwo'])
+
+    col = ["reszta" for i in val]
+    col[df2.idxmax()['Przewidziane prawdopodobieństwo']]="największa wartość"
+    df2["color"]=col
+    st.bar_chart(df2, x = 'Etykieta', y = 'Przewidziane prawdopodobieństwo',
+        y_label= "% prawdopodobieństwo",color = "color")
+
+    cols = st.columns(3)
+
+    with cols[0]:
+        st.download_button(
+            label="Pobierz wyniki jako .csv",
+            data=df.to_csv(sep=',', encoding="utf-8"),
+            file_name="wyniki.tsv",
+            mime="text/csv",
+            icon=":material/download:",
+            on_click="ignore",
+        )
+    with cols[1]:
+        st.download_button(
+            label="Pobierz wyniki jako .tsv",
+            data=df.to_csv(sep='\t', encoding="utf-8"),
+            file_name="wyniki.tsv",
+            mime="text/csv",
+            icon=":material/download:",
+            on_click="ignore",
+        )
+    with cols[2]:
+        txt_data=f"   Przewidziane prawdopodobieństwo Etykieta\n"
+        i =0
+        for k, v in pred_dict.items():
+            txt_data+=f"{i}{' ' if i<10  else ''}{' '*(32-len(v))}{v} {k}\n"
+            i+=1
+        st.download_button(
+            label="Pobierz wyniki jako .txt",
+            data=txt_data,
+            file_name="wyniki.txt",
+            mime="text/csv",
+            icon=":material/download:",
+            on_click="ignore",
+        )
