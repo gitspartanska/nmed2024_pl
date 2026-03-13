@@ -389,4 +389,5 @@ RESPFATG,Co umniejsza wiarygodność odpowiedzi pacjenta? Zmęczenie,"{'0': 'Nie
 RESPEMOT,Co umniejsza wiarygodność odpowiedzi pacjenta? Problemy emocjonalne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPASST,Co umniejsza wiarygodność odpowiedzi pacjenta? Niezaaprobowana pomoc,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPOTH,Co umniejsza wiarygodność odpowiedzi pacjenta? Inne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
-NACCNE4S,Liczba alleli APOE e4,"{'0': 'Brak allelu e4', '1': '1 kopia allelu e4', '2': '2 kopie allelu e4', '9': 'Nieznany'}",Genetic Data
+NACCNE4S,Liczba alleli APOE e4,"{'0': 'Brak allelu e4', '1': '1 kopia allelu e4', '2': '2 kopie allelu e4', '9': 'Nieznany'}",Dane Genetyczne
+
