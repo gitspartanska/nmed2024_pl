@@ -9,9 +9,9 @@ import json
 st.set_page_config(layout="wide")
 st.badge("agpl-3.0 license", color="blue")
 # section 1
-st.markdown("#### About")
-st.markdown("Differential diagnosis of dementia remains a challenge in neurology due to symptom overlap across etiologies, yet it is crucial for formulating early, personalized management strategies. Here, we present an AI model that harnesses a broad array of data, including demographics, individual and family medical history, medication use, neuropsychological assessments, functional evaluations, and multimodal neuroimaging, to identify the etiologies contributing to dementia in individuals.")
-st.markdown("Links:\n* Paper: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub: [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Our lab: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)")
+st.markdown("#### O modelu")
+st.markdown("Diagnostyka różnicowa demencji pozostaje wyzwaniem w neurologii ze względu na nakładanie się objawów o różnych etiologiach, jednak ma ona kluczowe znaczenie dla opracowania wczesnych, spersonalizowanych strategii leczenia. W niniejszym artykule przedstawiamy model sztucznej inteligencji, który wykorzystuje szeroki zakres danych, w tym dane demograficzne, historię medyczną pacjenta i jego rodziny, informacje o stosowaniu leków, oceny neuropsychologiczne, oceny funkcjonalne oraz multimodalne neuroobrazowanie, w celu identyfikacji przyczyn przyczyniających się do demencji u poszczególnych osób.")
+st.markdown("Linki:\n* Publikacja: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub: [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Twórcy modelu: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)")
 
 # section 2
 st.markdown("#### Minimodel")
