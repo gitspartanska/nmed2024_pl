@@ -234,15 +234,15 @@ POSTINST,Niestabilność postawy,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",
 CVDSIGNS,Objawy neurologiczne uznane przez egzaminującego za silnie powiązane z chorobą naczyniowo-mózgową,"{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
 CORTDEF,"Deficyt poznawczy kory mózgowej (np. afazja, apraksja, zaniedbanie)","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 SIVDFIND,Zanikowe lub inne neurologiczne wyniki zgodne z SIVD (podkorowym niedokrwiennym otępieniem naczyniowym),"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-CVDMOTL,"Funkcje ruchowe (może obejmować słabość będącą kombinacją twarzy, ręki i nogi; zmainy refleksu itp.) - lewa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-CVDMOTR,"Funkcje ruchowe (może obejmować słabość będącą kombinacją twarzy, ręki i nogi; zmainy refleksu itp.) - prawa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CVDMOTL,"Objawy ruchowe (mogą obejmować osłabienie dotyczące twarzy, kończyny górnej i dolnej; zmiany odruchów itp.) - lewa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+CVDMOTR,"Objawy ruchowe (mogą obejmować osłabienie dotyczące twarzy, kończyny górnej i dolnej; zmiany odruchów itp.) - prawa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 CORTVISL,Korowa utrata pola widzenia - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 CORTVISR,Korowa utrata pola widzenia - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-SOMATL,Utrata czucia somatycznego - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-SOMATR,Utrata czucia somatycznego - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-POSTCORT,"Zaburzenia kory wzrokowej sugerujące suggesting zanik korowy tylny (np. prozopagnozja, simultanagnozja, Zespół Bálinta) lub apraksja ruchów gałek ocznych","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
-PSPCBS,"Wyniki wskazują na postępujące porażenie nadjądrowe (PSP), zwyrodnienie korowo-podstawne (CBS) lub inne powiązane choroby","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
-EYEPSP,Zmainy ruchów gałek ocznych występujące z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SOMATL,Ubytek czucia somatosensorycznego - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+SOMATR,Ubytek czucia somatosensorycznego - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
+POSTCORT,"Wyższe zaburzenia widzenia korowego sugerujące tylny zanik korowy (np. prozopagnozja, symultanagnozja, zespół Bálinta) lub apraksję spojrzenia","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+PSPCBS,"Wyniki sugerujące postępujące porażenie nadjądrowe (PSP), zespół korowo-podstawny (CBS) lub inne pokrewne zaburzenia","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+EYEPSP,Zmiany ruchów gałek ocznych występujące z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 DYSPSP,Dyzartria występująca z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 AXIALPSP,Sztywność osiowa występująca z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 GAITPSP,Zaburzenia chodu występujące z PSP,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
@@ -259,7 +259,7 @@ DYSTONL,"Dystonia występująca z CBS, PSP lub powiązana chorobą - lewa strona
 DYSTONR,"Dystonia występująca z CBS, PSP lub powiązana chorobą - prawa strona","{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 MYOCLLT,Mioklonie występujące z CBS - lewa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
 MYOCLRT,Mioklonie występujące z CBS - prawa strona,"{'0': 'Nie', '1': 'Tak', '8': 'Nie zbadano'}",Wyniki Testów Fizycznych/Neurologicznych
-ALSFIND,"Wyniki sugerujące stwarnienie zanikowe boczne ALS (np. zaniki mięśniowe, fascykulacje, spastyczny niedowład kończyn dolnych i/lub kończyn górnych)","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
+ALSFIND,"Wyniki sugerujące stwardnienie zanikowe boczne ALS (np. zaniki mięśniowe, fascykulacje, spastyczny niedowład kończyn dolnych i/lub kończyn górnych)","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
 GAITNPH,Wodogłowie normotensyjne - apraksja chodu,"{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
 OTHNEUR,"Inne wyniki (np. ataksja móżdżkowa, pląsawica, mioklonie)","{'0': 'Nie', '1': 'Tak'}",Wyniki Testów Fizycznych/Neurologicznych
 MMSECOMP,Czy jakaś część testu MMSE została wykonana?,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
@@ -282,7 +282,7 @@ MEMUNITS,"Logical Memory IIA - Opóźniony - Łączna liczba historii przypomnia
 MEMTIME,"Logical Memory IIA - Opóźniony - Czas, kóy upłynął od Logical Memory IA - Natychmiastowy",{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
 UDSBENTC,Łączny wynik dla kopiowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
 UDSBENTD,Łączny wynik dla 10- do 15-minutowego opóźnionego rysowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
-UDSBENRS,Rozpoznanie otginalnego bodźca spośród czterech opcji,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+UDSBENRS,Rozpoznanie oryginalnego bodźca spośród czterech opcji,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIF,Test powtarzania liczb wprzód - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIFLEN,Test powtarzania liczb wprzód - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIB,Test powtarzania liczb wstecz - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
