@@ -57,13 +57,13 @@ SMOKYRS,Łączna liczba lat palenia wyrobów tytoniowych,{'zakres': '0 - 87'},Hi
 PACKSPER,Średnia liczba opakowań wypalanych dziennie,"{'0': 'Nie zgłoszono użycia wyrobów tytoniowych', '1': '1 papieros do 1/2 opakowania', '2': '1/2 opakowania do mniej niż 1 opakowania', '3': '1 opakowanie do 1.5 opkakowania', '4': '1.5 opakowania do 2 opakowań', '5': 'więcej niż 2 opakowania', '8': 'Nie ma zastosowania', '9': 'Nieznany'}",Historia Zdrowia
 QUITSMOK,"Wiek, w którym pacjent rzucił palenie (jeśli rzucił)",{'zakres': '7 - 110'},Historia Zdrowia
 ALCOCCAS,"Czy pacjent spożywał alkohol w ciągu ostatnich 3 miesięcy?","{'0': 'Nie', '1': 'Tak', '9': 'Nieznany'}",Historia Zdrowia
-ALCFREQ,"W przeciągu ostatnich 3 miesięcy, jak częśto pacjent pił co najmniej jeden z wyrobów alkoholowch takich jak: wino, piwo, likier słodowy lub spirytus?","{'0': 'Mniej niż raz w miesiącu', '1': 'Około raz w miesiącu', '2': 'Około raz w tygodniu', '3': 'Kilka razy w tygodniu', '4': 'Codzienne lub prawie codziennie', '8': 'Nie ma zastosowania, brak konsumpcji alkoholu w przeciągu ostatnich 3 miesięcy', '9': 'Nieznany'}",Historia Zdrowia
+ALCFREQ,"W ciągu ostatnich trzech miesięcy, jak często pacjent pił alkohol (wino, piwo, napój słodowy, mocny alkohol)?","{'0': 'Mniej niż raz w miesiącu', '1': 'Około raz w miesiącu', '2': 'Około raz w tygodniu', '3': 'Kilka razy w tygodniu', '4': 'Codzienne lub prawie codziennie', '8': 'Nie ma zastosowania, brak konsumpcji alkoholu w przeciągu ostatnich 3 miesięcy', '9': 'Nieznany'}",Historia Zdrowia
 CVHATT,Zawał serca/zatrzymanie akcji serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
 HATTMULT,Więcej niż jeden zawał serca/zatrzymanie akcji serca?,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, brak wzmianki o zawałach serca', '9': 'Nieznany'}",Historia Zdrowia
 HATTYEAR,Rok w którym ostatni raz wystąpił zawał serca,{'zakres': '>= 1900'},Historia Zdrowia
 CVAFIB,Migotanie przedsionków,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Nieznany'}",Historia Zdrowia
 CVANGIO,Angioplastyka/endarterektomia/stent,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
-CVBYPASS,Zabieg bypass serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
+CVBYPASS,"Zabieg pomostowania aortalno-wieńcowego (CABG, bypass serca)","{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
 CVPACDEF,Rozrusznik serca i/lub defibrylator,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
 CVPACE,Rozrusznik serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
 CVCHF,Zastoinowa niewydolność serca,"{'0': 'Brak', '1': 'Niedawny/Aktywny', '2': 'Odległy/Nieaktywny', '9': 'Nieznany'}",Historia Zdrowia
