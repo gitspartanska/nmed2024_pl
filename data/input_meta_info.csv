@@ -179,7 +179,7 @@ BRADYKIN,Bradykinezja i hipokinezja ciała,"{'0': 'Brak', '1': 'Minimalna powoln
 NPIQINF,Osoba współtowarzysząca w NPI-Q,"{'1': 'Małżonek', '2': 'Dziecko', '3': 'Inna'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 DEL,Urojenia w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 HALL,Halucynacje w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
-AGIT,Pobudzenie lub agrsja w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
+AGIT,Pobudzenie lub agresja w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 DEPD,Depresja lub dysforia w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 ANX,Lęk w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 ELAT,Euforia lub rozradowanie w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
@@ -189,23 +189,23 @@ IRR,Irytacja lub drażliwość w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9
 MOT,Aberracyjne zachowania motoryczne w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 NITE,Nocna aktywność w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
 APP,Apetyt i problemy z jedzeniem w ostatnim miesiącu,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}","Kwestionariusz Neuropsychiatryczny (Neuropsychiatric Inventory Questionnaire, NPI-Q)"
-NOGDS,"Czy pacjent jest zdolny do wykonania testu GDS, zgodnie z najlepszą oceną klinicysty?","{'0': 'Zdolny do wykonania GDS', '1': 'Niezdolny do wykonania GDS'}",Geriatric Depression Scale (GDS)
-SATIS,"Myśląc o całym swoim życiu, czy jest Pan(i) z niego zadowolony(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-DROPACT,"Czy zmniejszyła się liczba Pani(-a) aktywności i zainteresowań?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-EMPTY,"Czy ma Pan(i) poczucie, że życie jest puste?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-BORED,"Czy często czuje się Pan(i) znudzony(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-SPIRITS,"Czy jest Pan(i) w dobrym nastroju przez większość czasu?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-AFRAID,"Czy obawia się Pan(i), że może się zdarzyć Panu(-i) coś złego?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-HAPPY,"Czy przez większość czasu czuje się Pan(i) szczęśliwy(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-HELPLESS,"Czy często czuje się Pan(i) bezradny(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-STAYHOME,"Czy zamiast wyjść z domu, woli Pan(i) w nim pozostać?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-MEMPROB,"Czy czuje Pan(i), że ma więcej kłopotów z pamięcią niż inni ludzie?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-WONDRFUL,"Czy myśli Pan(i), że wspaniale jest żyć?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-WRTHLESS,"Czy obecnie czuje się Pan(i) gorszy(-a) od innych ludzi?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-ENERGY,"Czy czuje się Pan(i) pełny(-a) energii?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-HOPELESS,"Czy uważa Pan(i), że sytuacja jest beznadziejna?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-BETTER,"Czy mysli Pan(i), że ludzie są lepsi niż Pan(i)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}",Geriatric Depression Scale (GDS)
-NACCGDS,Wynik łączny GDS,{'zakres': '0 - 15'},Geriatric Depression Scale (GDS)
+NOGDS,"Czy pacjent jest zdolny do wykonania testu GDS, zgodnie z najlepszą oceną klinicysty?","{'0': 'Zdolny do wykonania GDS', '1': 'Niezdolny do wykonania GDS'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+SATIS,"Myśląc o całym swoim życiu, czy jest Pan(i) z niego zadowolony(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+DROPACT,"Czy zmniejszyła się liczba Pani(-a) aktywności i zainteresowań?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+EMPTY,"Czy ma Pan(i) poczucie, że życie jest puste?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+BORED,"Czy często czuje się Pan(i) znudzony(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+SPIRITS,"Czy jest Pan(i) w dobrym nastroju przez większość czasu?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+AFRAID,"Czy obawia się Pan(i), że może się zdarzyć Panu(-i) coś złego?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+HAPPY,"Czy przez większość czasu czuje się Pan(i) szczęśliwy(-a)?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+HELPLESS,"Czy często czuje się Pan(i) bezradny(-a)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+STAYHOME,"Czy zamiast wyjść z domu, woli Pan(i) w nim pozostać?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+MEMPROB,"Czy czuje Pan(i), że ma więcej kłopotów z pamięcią niż inni ludzie?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+WONDRFUL,"Czy myśli Pan(i), że wspaniale jest żyć?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+WRTHLESS,"Czy obecnie czuje się Pan(i) gorszy(-a) od innych ludzi?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+ENERGY,"Czy czuje się Pan(i) pełny(-a) energii?","{'0': 'Tak', '1': 'Nie', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+HOPELESS,"Czy uważa Pan(i), że sytuacja jest beznadziejna?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+BETTER,"Czy mysli Pan(i), że ludzie są lepsi niż Pan(i)?","{'0': 'Nie', '1': 'Tak', '9': 'Nie udzielono odpowiedzi'}","Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
+NACCGDS,Wynik łączny GDS,{'zakres': '0 - 15'},"Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)"
 BILLS,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: płaceniu rachunków, pałceniu w sklpach, balansowaniu stanem konta?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Brak danych'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
 TAXES,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: składaniu zeznań podatkowych, kwestiach biznesowych lub innych innych dokumentów?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Brak danych'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
 SHOPPING,"Czy w cięgu ostatnich 4 tygodni pacjent miał jakiekolwiek trudności z lub wymagał pomocy przy: samodzielnym kupowaniu ubrań, artykułów domowych lub spożywczych?","{'0': 'Stan normalny', '1': 'Ma problemy, ale robi samodzielnie', '2': 'Wymaga pomocy', '3': 'Jest zależny od innej osoby', '8': 'Nie ma zastosowania (np. nigdy nie wystąpiły)', '9': 'Brak danych'}",Kwestionariusz Aktywności Funkcjonalnych (FAQ)
