@@ -30,7 +30,7 @@ NACCFMS,Źródło dowodów za istnieniem mutacji związanej z otępieniem czoło
 NACCOM,"Czy w tej rodzinie są dowody na mutację związaną z chorobą inną niż choroba Alzheimera i otępienie czołowo-skroniowe?","{'0': 'Nie', '1': 'Tak ', '9': 'Nie wiadomo czy mutacja istnieje'}",Historia Rodziny
 NACCOMS,Źródło dowodów za istnieniem innej mutacji,"{'1': 'Wywiad rodzinny (brak dostępnych dokumentacji testów)', '2': 'Dokumentacja testów komercyjnych', '3': 'Dokumentacja testów z badań laboratoryjnych', '8': 'Inne ', '9': 'Nieznany'}",Historia Rodziny
 ANYMEDS,Pacjent przyjmuje leki,"{'0': 'Nie', '1': 'Tak'}",Leki
-NACCAMD,Całkowita licznba leków zgłoszonych podczas każdej wizyty,{'zakres': '0 - 40'},Leki
+NACCAMD,Liczba wszystkich leków zgłoszonych przy każdej wizycie,{'zakres': '0 - 40'},Leki
 NACCAHTN,Zgłoszone aktualne użycie leków na nadciśnienie lub regulację ciśnienia krwi,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCHTNC,Zgłoszone aktualne użycie leków złożonych w terapii nadciśnienia tętniczego,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCACEI,Zgłoszone aktualne użycie inhibitora enzymu konwertującego angiotensynę (ACE),"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
@@ -42,7 +42,7 @@ NACCVASD,Zgłoszone aktualne użycie leków rozszerzających naczynia krwionośn
 NACCANGI,Zgłoszone aktualne użycie inhibitorów angiotensyny II,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCLIPL,Zgłoszone aktualne użycie leków zmniejszających poziom lipidów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCNSD,Zgłoszone aktualne użycie niesteroidowych leków przeciwazpalnych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
-NACCAC,Zgłoszone aktualne użycie leków przeciwpłytkowych lub antykoagulatów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
+NACCAC,Zgłoszone aktualne użycie leków przeciwkrzepliwych lub przeciwpłytkowych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCADEP,Zgłoszone aktualne użycie antydepresantów,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCAPSY,Zgłoszone aktualne użycie leków przeciwpsychotycznych,"{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
 NACCAANX,"Zgłoszone aktualne użycie leków przeciwlękowych, sedacyjnych, lub hypnotycznych","{'0': 'Nie zgłoszono podczas wizyty', '1': 'Zgłoszono podczas wizyty'}",Leki
