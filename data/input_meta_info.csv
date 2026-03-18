@@ -117,7 +117,7 @@ DEP2YRS,Aktywna depresja w ciągu ostatnich dwóch lat,"{'0': 'Nie', '1': 'Tak',
 DEPOTHR,Epizody depresyjne sprzed ponad dwóch lat,"{'0': 'Nie wystąpiły', '1': 'Tak, były obecne', '9': 'Brak danych'}",Historia Zdrowia
 ANXIETY,Zaburzenia lękowe,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Brak danych'}",Historia Zdrowia
 OCD,Zaburzenia obsesyjno-kompulsyjne (OCD),"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Brak danych'}",Historia Zdrowia
-NPSYDEV,"Zaburzenia neurorozwojowe (np., zaburzenia ze spektrum autyzmu, zespół nadpobudliwości psychoruchowej z deficytem uwagi [ADHD], dysleksia)","{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Brak danych'}",Historia Zdrowia
+NPSYDEV,"Zaburzenia neurorozwojowe (np., zaburzenia ze spektrum autyzmu, zespół nadpobudliwości psychoruchowej z deficytem uwagi [ADHD], dysleksja)","{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Brak danych'}",Historia Zdrowia
 PSYCDIS,Inne choroby psychiatryczne,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2': 'Odległe/Nieaktywne', '9': 'Brak danych'}",Historia Zdrowia
 NACCTBI,Historia urazowych uszkodzeń mózgu (TBI),"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Historia Zdrowia
 HEIGHT,Wysokość pacjenta (cm),{'zakres': '90 - 225'},Cechy Fizyczne
