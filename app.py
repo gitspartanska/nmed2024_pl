@@ -195,7 +195,7 @@ if predict_button:
     key_mappings = {
         'NC': 'Normalne poznanie',
         'MCI': 'Łagodne zaburzenia procesów poznawczych',
-        'DE': 'Demencia',
+        'DE': 'Demencja',
         'AD': 'Choroba Alzheimera',
         'LBD': 'Otępienie z ciałami Lewy\'ego i choroba Parkinsona',
         'VD': 'Uraz naczyniowy mózgu lub otępienie naczyniopochodne obejmujące udarowe',
