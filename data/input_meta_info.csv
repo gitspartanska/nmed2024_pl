@@ -132,8 +132,8 @@ VISWCORR,"Jeżeli pacjent normalnie nosi soczewki korekcyjne, czy wzrok pacjenta
 HEARING,"Czy słuch pacjenta jest funkcjonalnie normalny bez aparat(ów) słuchowego(-ych)?","{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 HEARAID,Czy pacjent nosi normalnie aparat(y) słuchowy(-e)?,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 HEARWAID,"Jeżeli pacjent nosi normalnie aparat(y) słuchowy(-e), czy razem z nim(i) słuch pacjenta jest funkcjonalnie normalny?","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, pacjent nie nosi aparat(ów) słuchowego(-ych)', '9': 'Brak danych'}",Cechy Fizyczne
-ABRUPT,Gwałtowny początek (do: oena stanu w skali HIS),"{'0': 'Brak', '2': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
-STEPWISE,Stopniowe pogorszenie (do: oena stanu w skali HIS),"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+ABRUPT,Gwałtowny początek (do: ocena stanu w skali HIS),"{'0': 'Brak', '2': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+STEPWISE,Stopniowe pogorszenie (do: ocena stanu w skali HIS),"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 SOMATIC,Skargi somatyczne,"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 EMOT,Nietrzymanie afektu,"{'0': 'Brak', '1': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 HXHYPER,Dodatni wywiad w kierunku nadciśnienia,"{'0': 'Brak', '1': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
@@ -141,7 +141,7 @@ HXSTROKE,Dodatni wywiad w kierunku udaru,"{'0': 'Brak', '2': 'Obecny'}",Wskaźni
 FOCLSYM,Ogniskowe objawy neurologiczne podmiotowe,"{'0': 'Brak', '2': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 FOCLSIGN,Ogniskowe objawy neurologiczne przedmiotowe,"{'0': 'Brak', '2': 'Obecne'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 HACHIN,Wskaźnik Ischemiczny Hachinskiego (HIS),{'zakres': '0 - 12'},Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
-CVDCOG,Wkład chorób naczyń mógowych do Cerebrovascular disease contributing to zaburzeń poznawczych,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
+CVDCOG,Choroba naczyń mózgowych przyczyniająca się do zaburzeń poznawczych,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 STROKCOG,Relacja pomiędzy udarem a zaburzeniami poznawczymi,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 CVDIMAG,Dowody obrazowe,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowaniaNie ma zastosowaniaNie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
 CVDIMAG1,Pojedynczy strategiczny zawał,"{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowaniaNie ma zastosowania'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
