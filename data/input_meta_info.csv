@@ -21,7 +21,7 @@ NACCNIHR,Definicja rasy zaczerpnięta z NIH,"{'1': 'Biała', '2': 'Czarna lub Af
 NACCFAM,Obecność zaburzeń poznawczych u krewnego pierwszego stopnia,"{'0': 'Brak informacji o zaburzeniach poznawczych u krewnego pierwszego stopnia', '1': 'U co najmniej jednego krewnego pierwszego stopnia stwierdzono zaburzenia poznawcze', '9': 'Brak danych'}",Historia Rodziny
 NACCMOM,Występowanie zaburzeń poznawczych u matki,"{'0': 'Brak informacji o zaburzeniach poznawczych u matki', '1': 'U matki stwierdzono zaburzenia poznawcze', '9': 'Brak danych'}",Historia Rodziny
 NACCDAD,Występowanie zaburzeń poznawczych u ojca,"{'0': 'Brak informacji o zaburzeniach poznawczych u ojca', '1': 'U ojca stwierdzono zaburzenia poznawcze', '9': 'Brak danych'}",Historia Rodziny
-NACCFADM,"Czy w tej rodzinie są dowody na dziedziczenie dominujące mutacji choroby Alzheimera?","{'0': 'Nie/Nieznany', '1': 'Tak'}",Historia Rodziny
+NACCFADM,"Czy w rodzinie stwierdzono dziedziczoną dominująco mutację powodującą chorobę Alzheimera?","{'0': 'Nie/Brak danych', '1': 'Tak'}",Historia Rodziny
 NACCAM,"Czy w tej rodzinie są dowody na mutację związaną z chorobą Alzheimera (z podanej listy mutacji)?","{'0': 'Nie', '1': 'Tak, APP', '2': 'Tak, PS-1 (PSEN-1)', '3': 'Tak, PS-2 (PSEN-2)', '8': 'Tak, inna ', '9': 'Nie wiadomo czy mutacja istnieje'}",Historia Rodziny
 NACCAMS,Źródło dowodów za istnieniem mutacji związanej z choroba Alzheimera,"{'1': 'Wywiad rodzinny (brak dostępnych dokumentacji testów)', '2': 'Dokumentacja testów komercyjnych', '3': 'Dokumentacja testów z badań laboratoryjnych', '8': 'Inne ', '9': 'Nieznany'}",Historia Rodziny
 NACCFFTD,"Czy w tej rodzinie są dowody na mutację związaną z otępieniem czołowo-skroniowym?","{'0': 'Nie/Nieznany', '1': 'Tak'}",Historia Rodziny
