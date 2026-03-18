@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 st.badge("agpl-3.0 license", color="blue")
 # section 1
 st.markdown("#### O modelu")
-st.markdown("Diagnostyka różnicowa demencji pozostaje wyzwaniem w neurologii ze względu na nakładanie się objawów o różnych etiologiach, jednak ma ona kluczowe znaczenie dla opracowania wczesnych, spersonalizowanych strategii leczenia. W niniejszym artykule przedstawiamy model sztucznej inteligencji, który wykorzystuje szeroki zakres danych, w tym dane demograficzne, historię medyczną pacjenta i jego rodziny, informacje o stosowaniu leków, oceny neuropsychologiczne, oceny funkcjonalne oraz multimodalne neuroobrazowanie, w celu identyfikacji przyczyn przyczyniających się do demencji u poszczególnych osób.")
+st.markdown("Diagnostyka różnicowa demencji stanowi jedno z głównych wyzwań neurologii, głównie ze względu na nakładanie się objawów wynikających z różnych etiologii. Jednocześnie ma ona kluczowe znaczenie dla opracowania wczesnych, spersonalizowanych strategii leczenia. W niniejszym artykule przedstawiamy model sztucznej inteligencji, który integruje szeroki zakres danych (w tym dane demograficzne, historię medyczną pacjenta i jego rodziny, informacje o stosowaniu leków, wyniki ocen neuropsychologicznych i funkcjonalnych oraz multimodalne dane neuroobrazowe) w celu identyfikacji czynników przyczyniających się do rozwoju demencji u poszczególnych osób.")
 st.markdown("Linki:\n* Publikacja: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub: [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Twórcy modelu: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)")
 
 # section 2
