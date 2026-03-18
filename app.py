@@ -227,7 +227,7 @@ if predict_button:
         st.download_button(
             label="Pobierz wyniki jako .csv",
             data=df.to_csv(sep=',', encoding="utf-8"),
-            file_name="wyniki.tsv",
+            file_name="wyniki.csv",
             mime="text/csv",
             icon=":material/download:",
             on_click="ignore",
