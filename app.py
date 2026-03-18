@@ -11,8 +11,7 @@ st.badge("agpl-3.0 license", color="blue")
 # section 1
 st.markdown("#### O modelu")
 st.markdown("Diagnostyka różnicowa demencji stanowi jedno z głównych wyzwań neurologii, głównie ze względu na nakładanie się objawów wynikających z różnych etiologii. Jednocześnie ma ona kluczowe znaczenie dla opracowania wczesnych, spersonalizowanych strategii leczenia. W niniejszym artykule przedstawiamy model sztucznej inteligencji, który integruje szeroki zakres danych (w tym dane demograficzne, historię medyczną pacjenta i jego rodziny, informacje o stosowaniu leków, wyniki ocen neuropsychologicznych i funkcjonalnych oraz multimodalne dane neuroobrazowe) w celu identyfikacji czynników przyczyniających się do rozwoju demencji u poszczególnych osób.")
-st.markdown("Linki:\n* Publikacja: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub (EN): [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Twórcy modelu: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)")
-st.markdown("\n* HuggingFace: [https://huggingface.co/spaces/vkola-lab/nmed2024](https://huggingface.co/spaces/vkola-lab/nmed2024)\n* GitHub (PL): [https://github.com/gitspartanska/nmed2024_pl](https://github.com/gitspartanska/nmed2024_pl)\n")
+st.markdown("Linki:\n* Publikacja: [https://www.nature.com/articles/s41591-024-03118-z](https://www.nature.com/articles/s41591-024-03118-z)\n* GitHub (EN): [https://github.com/vkola-lab/nmed2024](https://github.com/vkola-lab/nmed2024)\n* Twórcy modelu: [https://vkola-lab.github.io/](https://vkola-lab.github.io/)\n* HuggingFace: [https://huggingface.co/spaces/vkola-lab/nmed2024](https://huggingface.co/spaces/vkola-lab/nmed2024)\n* GitHub (PL): [https://github.com/gitspartanska/nmed2024_pl](https://github.com/gitspartanska/nmed2024_pl)\n")
 
 # section 2
 st.markdown("#### Minimodel")
