@@ -147,7 +147,7 @@ with st.form("dynamic_form"):
 
         # seperate line
         st.markdown("---")
-
+    cols = st.columns(3)
     with cols[1]:
         predict_button = st.form_submit_button("PREDYKCJA", use_container_width=True, type='primary')
 
