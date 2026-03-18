@@ -287,7 +287,7 @@ DIGIF,Test powtarzania liczb wprzód - liczba poprawnie wykonanych prób,{'zakre
 DIGIFLEN,Test powtarzania liczb wprzód - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIB,Test powtarzania liczb wspak - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIBLEN,Test powtarzania liczb wspak - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
-ANIMALS,Zwirzęta - Łączna liczba zwierząt nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
+ANIMALS,Zwierzęta - Łączna liczba zwierząt nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
 VEG,Warzywa - Łączna liczba warzyw nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
 TRAILA,Test łączenia kresek Część A - Łączna liczba sekund potrzebnych do zakończenia,{'zakres': '0 - 150'},Podsumowanie Wyników Testów Neuropsychologicznych
 TRAILARR,Test łączenia kresek Część A - liczba popełnionych błędów,{'zakres': '0 - 40'},Podsumowanie Wyników Testów Neuropsychologicznych
@@ -383,11 +383,11 @@ VNTPCNC,Ustny test nazywania: Łączna liczba poprawnych odpowiedzi z wskazówka
 RESPVAL,Za jak bardzo przekonujące/wiążące oceniasz odpowiedzi pacjenta?,"{'1': 'Bardzo przekonujące, prawdopodobnie dokładnie oddające stan psychologiczny pacjenta', '2': 'Budzące wątpliwości, możliwe, że nie oddają dokładnie stanu psychologicznego pacjenta', '3': 'Niewiarygodne, prawdopodobnie niedokładnie oddają stan psychiczny pacjenta'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPHEAR,Co umniejsza wiarygodność odpowiedzi pacjenta? Upośledzenie słuchu,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPDIST,Co umniejsza wiarygodność odpowiedzi pacjenta? Rozproszenie,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
-RESPINTR,Co umniejsza wiarygodność odpowiedzi pacjenta? Wtrącenia/Zakłucenia,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPINTR,Co umniejsza wiarygodność odpowiedzi pacjenta? Wtrącenia/Zakłócenia,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPDISN,Co umniejsza wiarygodność odpowiedzi pacjenta? Brak zaanagrzowania lub wysiłku,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPFATG,Co umniejsza wiarygodność odpowiedzi pacjenta? Zmęczenie,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPEMOT,Co umniejsza wiarygodność odpowiedzi pacjenta? Problemy emocjonalne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
-RESPASST,Co umniejsza wiarygodność odpowiedzi pacjenta? Niezaaprobowana pomoc,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
+RESPASST,Co umniejsza wiarygodność odpowiedzi pacjenta? Niezatwierdzona pomoc,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 RESPOTH,Co umniejsza wiarygodność odpowiedzi pacjenta? Inne,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 NACCNE4S,Liczba alleli APOE e4,"{'0': 'Brak allelu e4', '1': '1 kopia allelu e4', '2': '2 kopie allelu e4', '9': 'Brak danych'}",Dane Genetyczne
 
