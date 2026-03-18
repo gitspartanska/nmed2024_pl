@@ -277,15 +277,15 @@ LOGIMO,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 mies
 LOGIDAY,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 miesięcy, sprecyzuj datę jego wykonania (dzień)",{'zakres': '1 - 31'},Podsumowanie Wyników Testów Neuropsychologicznych
 LOGIYR,"Jeżeli ten test został wykonany na pacjencie w ciągu ostatnich 3 miesięcy, sprecyzuj datę jego wykonania (rok)",{'zakres': '>= 1875'},Podsumowanie Wyników Testów Neuropsychologicznych
 LOGIPREV,Łączny wynik test podczas jego poprzedniego wykonania,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
-LOGIMEM,Łączna liczba jednostek przypomnianych z aktualnego wykonania testu,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
-MEMUNITS,"Logical Memory IIA - Opóźniony - Łączna liczba historii przypomnianych",{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
-MEMTIME,"Logical Memory IIA - Opóźniony - Czas, kóy upłynął od Logical Memory IA - Natychmiastowy",{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
+LOGIMEM,Łączna liczba fragmentów opowieści odtworzonych w bieżącym badaniu,{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+MEMUNITS,"Logical Memory IIA - Odroczony - Łączna liczba odtworzonych fragmentów opowieści",{'zakres': '0 - 25'},Podsumowanie Wyników Testów Neuropsychologicznych
+MEMTIME,"Logical Memory IIA - Odroczony - Czas, jaki upłynął od części IA (bezpośredniej)",{'zakres': '0 - 85'},Podsumowanie Wyników Testów Neuropsychologicznych
 UDSBENTC,Łączny wynik dla kopiowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
-UDSBENTD,Łączny wynik dla 10- do 15-minutowego opóźnionego rysowania figury Benson'a,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
+UDSBENTD,Łączny wynik w teście odroczonego (po 10–15 minutach) rysowania figury Bensona,{'zakres': '0 - 17'},Podsumowanie Wyników Testów Neuropsychologicznych
 UDSBENRS,Rozpoznanie oryginalnego bodźca spośród czterech opcji,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
-DIGIF,Test powtarzania liczb wprzód - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIF,Test powtarzania liczb wprzód - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIFLEN,Test powtarzania liczb wprzód - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
-DIGIB,Test powtarzania liczb wstecz - podejścia poprawne,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIB,Test powtarzania liczb wstecz - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIBLEN,Test powtarzania liczb wstecz - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
 ANIMALS,Zwirzęta - Łączna liczba zwierząt nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
 VEG,Warzywa - Łączna liczba warzyw nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
