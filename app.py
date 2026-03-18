@@ -255,3 +255,7 @@ if predict_button:
             icon=":material/download:",
             on_click="ignore",
         )
+
+st.markdown("#### Słownik pojęć i skrótów")
+st.markdown("\n* Wskaźnik Ischemiczny Hachinskiego (HIS) - Wskaźnik Hachinskiego (HIS) to punktowy system oceny objawów i czynników ryzyka, który pozwala klinicznie odróżnić demencję naczyniową od choroby Alzheimera, ułatwiając wczesną diagnozę i planowanie leczenia")
+st.markdown("\n* ")
