@@ -257,5 +257,16 @@ if predict_button:
         )
 
 st.markdown("#### Słownik pojęć i skrótów")
-st.markdown("\n* Wskaźnik Ischemiczny Hachinskiego (HIS) - Wskaźnik Hachinskiego (HIS) to punktowy system oceny objawów i czynników ryzyka, który pozwala klinicznie odróżnić demencję naczyniową od choroby Alzheimera, ułatwiając wczesną diagnozę i planowanie leczenia")
-st.markdown("\n* ")
+st.markdown("\n* **Wskaźnik Ischemiczny Hachinskiego (HIS)** - Wskaźnik Hachinskiego (HIS) to punktowy system oceny objawów i czynników ryzyka, który pozwala klinicznie odróżnić demencję naczyniową od choroby Alzheimera, ułatwiając wczesną diagnozę i planowanie leczenia.")
+st.markdown("\n* **NPI‑Q (Neuropsychiatric Inventory – Questionnaire)** to krótka wersja kwestionariusza Neuropsychiatric Inventory (NPI), służąca do oceny objawów neuropsychiatrycznych u osób z zaburzeniami poznawczymi, najczęściej w przebiegu demencji, w tym choroby Alzheimera.")
+st.markdown("\n* **Osoba współtowarzysząca w NPI-Q** - osoba współtowarzysząca odpowiada na pytania w NPI‑Q w imieniu badanego.")
+st.markdown("\n* **Skala Depresji Geriatrycznej (Geriatric Depression Scale, GDS)** to standaryzowany kwestionariusz przesiewowy używany do oceny nasilenia objawów depresji u osób starszych.")
+st.markdown("\n* **Kwestionariusz Aktywności Funkcjonalnych (Functional Activities Questionnaire, FAQ)** to narzędzie oceniające zdolność osób dorosłych, szczególnie starszych, do wykonywania codziennych czynności instrumentalnych. Jest szeroko stosowany w diagnostyce zaburzeń poznawczych i demencji.")
+st.markdown("\n* **MMSE (Mini-Mental State Examination)** to prosty test pozwalający ocenić ogólny stan poznawczy pacjenta, wykrywając problemy z pamięcią, orientacją, uwagą i językiem, stosowany m.in. w diagnostyce demencji.")
+st.markdown("\n* **Logical Memory IIA** to badanie pamięci po pewnym czasie od przeczytania historii.")
+st.markdown("\n* **Logical Memory IIA** to badanie pamięci zaraz po przeczytaniu historii.")
+st.markdown("\n* **WAIS‑R Digit Symbol** to test mierzący szybkość przetwarzania informacji, uwagę i sprawność psychomotoryczną, polegający na szybkim przypisywaniu symboli do cyfr zgodnie z legendą.")
+st.markdown("\n* **test MoCA (Montreal Cognitive Assessment)** to krótki test przesiewowy oceniający funkcje poznawcze, szeroko stosowany w diagnostyce łagodnych zaburzeń poznawczych i demencji.")
+st.markdown("\n* **Craft Story 21 Recall** to test pamięci epizodycznej, w którym pacjent przypomina sobie 21-elementową historię po pewnym czasie opóźnienia, co pozwala ocenić zdolność przechowywania i przywoływania informacji werbalnych.")
+st.markdown("\n* **Multilingual Naming Test (MINT)** to test nazywania obrazków przeznaczony dla osób wielojęzycznych, służący ocenie zdolności do przypominania sobie słów i ich nazywania. Jest przydatny w wykrywaniu zaburzeń językowych spowodowanych schorzeniami neurologicznymi.")
+
