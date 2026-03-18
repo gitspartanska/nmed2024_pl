@@ -122,14 +122,14 @@ PSYCDIS,Inne choroby psychiatryczne,"{'0': 'Brak', '1': 'Niedawne/Aktywne', '2':
 NACCTBI,Historia urazowych uszkodzeń mózgu (TBI),"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Historia Zdrowia
 HEIGHT,Wysokość pacjenta (cm),{'zakres': '90 - 225'},Cechy Fizyczne
 WEIGHT,Masa pacjenta (kg),{'zakres': '20 - 185'},Cechy Fizyczne
-NACCBMI,body mass index (bMI),{'zakres': '10 - 100'},Cechy Fizyczne
+NACCBMI,Indeks Masy Ciała (BMI),{'zakres': '10 - 100'},Cechy Fizyczne
 BPSYS,"Ciśnienie krwi pacjenta (na siedząco), skurczowe",{'zakres': '70 - 230'},Cechy Fizyczne
 BPDIAS,"Ciśnienie krwi pacjenta (na siedząco), rozkurczowe",{'zakres': '30 - 140'},Cechy Fizyczne
 HRATE,Spoczynkowe tętno krwi pacjenta (puls),{'zakres': '33 - 160'},Cechy Fizyczne
-VISION,"Czy wzrok pacjenta jest funkcjonalnie normalny bez soczewek korekcyjnych?","{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
+VISION,"Czy pacjent widzi funkcjonalnie prawidłowo bez okularów lub soczewek?","{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 VISCORR,Czy pacjent nosi normalnie soczewki korekcyjne?,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 VISWCORR,"Jeżeli pacjent normalnie nosi soczewki korekcyjne, czy wzrok pacjenta jest w nich funkcjonalnie normalny?","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, pacjent nie nosi soczewek korekcyjnych', '9': 'Brak danych'}",Cechy Fizyczne
-HEARING,"Czy słuch pacjenta jest funkcjonalnie normalny beaz aparat(ów) słuchowego(-ych)?","{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
+HEARING,"Czy słuch pacjenta jest funkcjonalnie normalny bez aparat(ów) słuchowego(-ych)?","{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 HEARAID,Czy pacjent nosi normalnie aparat(y) słuchowy(-e)?,"{'0': 'Nie', '1': 'Tak', '9': 'Brak danych'}",Cechy Fizyczne
 HEARWAID,"Jeżeli pacjent nosi normalnie aparat(y) słuchowy(-e), czy razem z nim(i) słuch pacjenta jest funkcjonalnie normalny?","{'0': 'Nie', '1': 'Tak', '8': 'Nie ma zastosowania, pacjent nie nosi aparat(ów) słuchowego(-ych)', '9': 'Brak danych'}",Cechy Fizyczne
 ABRUPT,Gwałtowny początek (do: oena stanu w skali HIS),"{'0': 'Brak', '2': 'Obecny'}",Wskaźnik Ischemiczny Hachinskiego i Choroby Naczyń Mózgowych
