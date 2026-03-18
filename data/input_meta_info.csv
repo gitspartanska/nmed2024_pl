@@ -285,8 +285,8 @@ UDSBENTD,Łączny wynik w teście odroczonego (po 10–15 minutach) rysowania fi
 UDSBENRS,Rozpoznanie oryginalnego bodźca spośród czterech opcji,"{'0': 'Nie', '1': 'Tak'}",Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIF,Test powtarzania liczb wprzód - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
 DIGIFLEN,Test powtarzania liczb wprzód - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
-DIGIB,Test powtarzania liczb wstecz - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
-DIGIBLEN,Test powtarzania liczb wstecz - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIB,Test powtarzania liczb wspak - liczba poprawnie wykonanych prób,{'zakres': '0 - 12'},Podsumowanie Wyników Testów Neuropsychologicznych
+DIGIBLEN,Test powtarzania liczb wspak - długość,{'zakres': '0 - 8'},Podsumowanie Wyników Testów Neuropsychologicznych
 ANIMALS,Zwirzęta - Łączna liczba zwierząt nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
 VEG,Warzywa - Łączna liczba warzyw nazwanych/wymienionych w 60 sekund,{'zakres': '0 - 77'},Podsumowanie Wyników Testów Neuropsychologicznych
 TRAILA,Test łączenia kresek Część A - Łączna liczba sekund potrzebnych do zakończenia,{'zakres': '0 - 150'},Podsumowanie Wyników Testów Neuropsychologicznych
