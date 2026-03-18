@@ -16,7 +16,7 @@ st.markdown("Linki:\n* Publikacja: [https://www.nature.com/articles/s41591-024-0
 # section 2
 st.markdown("#### Minimodel")
 st.markdown("Model został zaadaptowany z Hugging Face Space. Wykorzystuje ponad 300 parametrów na temat stanu pacjenta do oszacowania prawdopodobieństwa obecności u pacjenta wybranych schorzeń związanych z mózgiem.")
-st.markdown("Link:\n* HuggingFace: [https://huggingface.co/spaces/vkola-lab/nmed2024](https://huggingface.co/spaces/vkola-lab/nmed2024)\n* GitHub: [https://github.com/gitspartanska/nmed2024_pl](https://github.com/gitspartanska/nmed2024_pl)\n")
+st.markdown("Linki:\n* HuggingFace: [https://huggingface.co/spaces/vkola-lab/nmed2024](https://huggingface.co/spaces/vkola-lab/nmed2024)\n* GitHub: [https://github.com/gitspartanska/nmed2024_pl](https://github.com/gitspartanska/nmed2024_pl)\n")
 st.markdown("By użyć minimodel:\n* Wprowadź dane wejściowe do poniższego formularza. Dozwolone jest niewypełnianie wszystkich pozycji.\n* Kliknij na przycisk\"**LOSOWY PRZYKŁAD**\" by wypełnić formularz losowym zestawem parametrów.\n* Użuj przycisku \"**PREDYKCJA**\" by przesłać dane z formularza do modelu i otrzymać w tabeli przewidywane wyniki.\n* Aby zapisać otrzymaną tabelę z wynikami jako plik formatu .csv/tsv/txt, kliknij odpowiedni przycisk na dole strony.")
 
 # load model
