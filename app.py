@@ -202,7 +202,7 @@ if predict_button:
         'FTD': 'Otępienie czołowo-skroniowe',
         'NPH': 'Wodogłowie normotensyjne',
         'SEF': 'Czynniki systemowe i zewnętrzne',
-        'PSY': 'Choroby psychatryczne',
+        'PSY': 'Choroby psychiatryczne',
         'TBI': 'Urazowe uszkodzenie mózgu',
         'ODE': 'Inne przyczyny, obejmujące nowotwory, zanik wieloukładowy, drżenie samoistne, chorobę Huntingtona, zespół Downa i napady padaczkowy'
     }
